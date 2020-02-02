@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>关于本站</title>
+    <url>/2020/02/02/About%20this%20blog/</url>
+    <content><![CDATA[<div class="note success">
+            <p>建站历程</p><ul><li>2020.01.31 - 部署Hexo，主题采用NexT-5.1.4</li><li>2020.02.02 - 博客添加关于页面</li><li>2020.02.02 - 博客主题升级至NexT-7.7.1</li></ul>
+          </div>]]></content>
+      <categories>
+        <category>hexo 部署</category>
+      </categories>
+  </entry>
+  <entry>
     <title>test</title>
     <url>/2020/02/01/title/</url>
     <content><![CDATA[<h2 id="This-is-a-test"><a href="#This-is-a-test" class="headerlink" title="This is a test"></a>This is a test</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">"hello world"</span>)</span><br><span class="line"></span><br><span class="line">a = <span class="string">"__main__"</span></span><br><span class="line"><span class="keyword">if</span> __name__ == a:</span><br><span class="line">  <span class="keyword">return</span></span><br></pre></td></tr></table></figure>

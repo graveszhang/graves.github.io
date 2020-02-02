@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-02T08:36:56.624Z</updated>
+  <updated>2020-02-02T10:21:51.336Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于本站</title>
+    <link href="http://yoursite.com/2020/02/02/About%20this%20blog/"/>
+    <id>http://yoursite.com/2020/02/02/About%20this%20blog/</id>
+    <published>2020-02-02T10:09:32.000Z</published>
+    <updated>2020-02-02T10:21:51.336Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div class=&quot;note success&quot;&gt;
+            &lt;p&gt;建站历程&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2020.01.31 - 部署Hexo，主题采用NexT-5.1.4&lt;/li&gt;&lt;li&gt;2020.02.02 -
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hexo 部署" scheme="http://yoursite.com/categories/hexo-%E9%83%A8%E7%BD%B2/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>test</title>
