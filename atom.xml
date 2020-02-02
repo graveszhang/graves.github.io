@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-02T10:21:51.336Z</updated>
+  <updated>2020-02-02T12:57:12.420Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019.12-2020.1</title>
+    <link href="http://yoursite.com/2020/02/02/2019-12-2020-1/"/>
+    <id>http://yoursite.com/2020/02/02/2019-12-2020-1/</id>
+    <published>2020-02-02T11:47:59.000Z</published>
+    <updated>2020-02-02T12:57:12.420Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;PC-升级&quot;&gt;&lt;a href=&quot;#PC-升级&quot; class=&quot;headerlink&quot; title=&quot;PC 升级&quot;&gt;&lt;/a&gt;PC 升级&lt;/h3&gt;&lt;p&gt;由于实习的关系，2020年的上半年多半会待在家。正巧种草NZXT的机箱（主要是风扇太好看了），家里的台式也有几年没升级，那必然逃不过我糟糕的消费习惯了。虽然早就听说AMD员工购买公司产品可以享受优惠，不过在了解了一番之后还是被繁琐的报销流程劝退了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/graveszhang/Img-Host/master/DSC07484.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="game" scheme="http://yoursite.com/tags/game/"/>
+    
+      <category term="life" scheme="http://yoursite.com/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>关于本站</title>
