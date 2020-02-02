@@ -3,8 +3,7 @@
   <entry>
     <title>test</title>
     <url>/2020/02/01/title/</url>
-    <content><![CDATA[<p>This is a test</p>
-<h1 id="This-is-markdown"><a href="#This-is-markdown" class="headerlink" title="This is markdown"></a>This is markdown</h1><figure class="highlight python"><figcaption><span>This is py</span></figcaption><table><tr><td class="code"><pre><span class="line">print(<span class="string">"hello world"</span>)</span><br><span class="line"></span><br><span class="line">a = <span class="string">"__main__"</span></span><br><span class="line"><span class="keyword">if</span> __name__ == a:</span><br><span class="line">  <span class="keyword">return</span></span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="This-is-a-test"><a href="#This-is-a-test" class="headerlink" title="This is a test"></a>This is a test</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">"hello world"</span>)</span><br><span class="line"></span><br><span class="line">a = <span class="string">"__main__"</span></span><br><span class="line"><span class="keyword">if</span> __name__ == a:</span><br><span class="line">  <span class="keyword">return</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>hexo 部署</category>
@@ -21,6 +20,7 @@
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<a id="more"></a>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
