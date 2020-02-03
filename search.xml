@@ -32,6 +32,9 @@
 <p>他只是享受探险过程的乐趣。</p>
 <p><img src="https://github.com/graveszhang/Img-Host/blob/master/IMG_0435.JPG?raw=true" alt=""></p>
 ]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
       <tags>
         <tag>game</tag>
         <tag>life</tag>
@@ -44,23 +47,8 @@
             <p>建站历程</p><ul><li>2020.01.31 - 部署Hexo，主题采用NexT-5.1.4</li><li>2020.02.02 - 博客添加关于页面</li><li>2020.02.02 - 博客主题升级至NexT-7.7.1</li><li>2020.02.03 - 博客添加近期文章，删除相册</li></ul>
           </div>]]></content>
       <categories>
-        <category>hexo 部署</category>
+        <category>建站</category>
       </categories>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2020/02/01/title/</url>
-    <content><![CDATA[<h2 id="This-is-a-test"><a href="#This-is-a-test" class="headerlink" title="This is a test"></a>This is a test</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">"hello world"</span>)</span><br><span class="line"></span><br><span class="line">a = <span class="string">"__main__"</span></span><br><span class="line"><span class="keyword">if</span> __name__ == a:</span><br><span class="line">  <span class="keyword">return</span></span><br></pre></td></tr></table></figure>
-<a id="more"></a>
-<h2 id="Let’s-try-LaTeX"><a href="#Let’s-try-LaTeX" class="headerlink" title="Let’s try $\LaTeX$"></a>Let’s try $\LaTeX$</h2><p>$a = \sqrt{b^2+c^2}$<br>$$\frac{1}{m}$$</p>
-]]></content>
-      <categories>
-        <category>hexo 部署</category>
-      </categories>
-      <tags>
-        <tag>tech</tag>
-        <tag>test</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -80,5 +68,8 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
   </entry>
 </search>

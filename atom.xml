@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-03T03:21:42.825Z</updated>
+  <updated>2020-02-03T03:54:36.450Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/02/02/2019-12-2020-1/"/>
     <id>http://yoursite.com/2020/02/02/2019-12-2020-1/</id>
     <published>2020-02-02T11:47:59.000Z</published>
-    <updated>2020-02-03T03:21:42.825Z</updated>
+    <updated>2020-02-03T03:54:36.450Z</updated>
     
     <summary type="html">
     
@@ -30,6 +30,8 @@
     
     </summary>
     
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="game" scheme="http://yoursite.com/tags/game/"/>
@@ -43,7 +45,7 @@
     <link href="http://yoursite.com/2020/02/02/About%20this%20blog/"/>
     <id>http://yoursite.com/2020/02/02/About%20this%20blog/</id>
     <published>2020-02-02T10:09:32.000Z</published>
-    <updated>2020-02-03T03:53:33.210Z</updated>
+    <updated>2020-02-03T03:54:47.244Z</updated>
     
     <summary type="html">
     
@@ -59,31 +61,8 @@
     </summary>
     
     
-      <category term="hexo 部署" scheme="http://yoursite.com/categories/hexo-%E9%83%A8%E7%BD%B2/"/>
+      <category term="建站" scheme="http://yoursite.com/categories/%E5%BB%BA%E7%AB%99/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2020/02/01/title/"/>
-    <id>http://yoursite.com/2020/02/01/title/</id>
-    <published>2020-02-01T04:09:32.000Z</published>
-    <updated>2020-02-02T08:36:56.624Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;This-is-a-test&quot;&gt;&lt;a href=&quot;#This-is-a-test&quot; class=&quot;headerlink&quot; title=&quot;This is a test&quot;&gt;&lt;/a&gt;This is a test&lt;/h2&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;print(&lt;span class=&quot;string&quot;&gt;&quot;hello world&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a = &lt;span class=&quot;string&quot;&gt;&quot;__main__&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; __name__ == a:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="hexo 部署" scheme="http://yoursite.com/categories/hexo-%E9%83%A8%E7%BD%B2/"/>
-    
-    
-      <category term="tech" scheme="http://yoursite.com/tags/tech/"/>
-    
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
     
   </entry>
   
@@ -92,7 +71,7 @@
     <link href="http://yoursite.com/2020/01/31/hello-world/"/>
     <id>http://yoursite.com/2020/01/31/hello-world/</id>
     <published>2020-01-31T13:19:58.952Z</published>
-    <updated>2020-02-02T07:05:41.723Z</updated>
+    <updated>2020-02-03T03:55:21.582Z</updated>
     
     <summary type="html">
     
@@ -103,6 +82,8 @@
     
     </summary>
     
+    
+      <category term="建站" scheme="http://yoursite.com/categories/%E5%BB%BA%E7%AB%99/"/>
     
     
   </entry>
