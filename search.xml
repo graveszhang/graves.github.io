@@ -41,7 +41,7 @@
     <title>关于本站</title>
     <url>/2020/02/02/About%20this%20blog/</url>
     <content><![CDATA[<div class="note success">
-            <p>建站历程</p><ul><li>2020.01.31 - 部署Hexo，主题采用NexT-5.1.4</li><li>2020.02.02 - 博客添加关于页面</li><li>2020.02.02 - 博客主题升级至NexT-7.7.1</li></ul>
+            <p>建站历程</p><ul><li>2020.01.31 - 部署Hexo，主题采用NexT-5.1.4</li><li>2020.02.02 - 博客添加关于页面</li><li>2020.02.02 - 博客主题升级至NexT-7.7.1</li><li>2020.02.03 - 博客添加近期文章，删除相册</li></ul>
           </div>]]></content>
       <categories>
         <category>hexo 部署</category>
