@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-04T16:02:55.744Z</updated>
+  <updated>2020-02-05T04:09:28.009Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Crowdsourced Continuous Improvement of Medical Speech Recognition</title>
+    <link href="http://yoursite.com/2020/02/05/Medical%20Speech%20Recognition/"/>
+    <id>http://yoursite.com/2020/02/05/Medical%20Speech%20Recognition/</id>
+    <published>2020-02-04T16:22:59.000Z</published>
+    <updated>2020-02-05T04:09:28.009Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;本文描述了一种使用涉及多组工人的多步周期来不断提高大型医疗自动语音识别器（ASR）的准确性的方法。本文将解决医学领域的独特挑战，并讨论如何结合自动创建和众包的输入数据来完善ASR语言模型。改进周期有助于将原始系统的单词错误率从34.1％降低到10.4％，接近了接受医学转录训练的人类转录员的准确性。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/graveszhang/Img-Host/master/Production%20Cycle.png&quot; alt=&quot;Figure 1: Production Cycle and Continuous Improvement Cycle.&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="deep learning" scheme="http://yoursite.com/tags/deep-learning/"/>
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="artificial intelligence" scheme="http://yoursite.com/tags/artificial-intelligence/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Intro to datasets</title>
     <link href="http://yoursite.com/2020/02/04/2020-02-04-Intro-to-datasets/"/>
     <id>http://yoursite.com/2020/02/04/2020-02-04-Intro-to-datasets/</id>
     <published>2020-02-04T14:42:59.000Z</published>
-    <updated>2020-02-04T16:02:55.744Z</updated>
+    <updated>2020-02-04T16:20:21.734Z</updated>
     
     <summary type="html">
     
@@ -35,7 +61,9 @@
       <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="data, crowdsourcing" scheme="http://yoursite.com/tags/data-crowdsourcing/"/>
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="data" scheme="http://yoursite.com/tags/data/"/>
     
   </entry>
   
