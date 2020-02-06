@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>一篇关于机器学习和众包的会议文章的构想</title>
+    <url>/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/</url>
+    <content><![CDATA[<h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><p>黄老师：中科院教授 研究领域：机器学习，深度学习，数据挖掘，对众包领域不熟悉。</p>
+<p>要求：需要我们这边把问题和数据捋清楚，黄老师负责用数据建模（可以是分类，回归，排序之类的模型），有的问题可以学习，有的不能。找到合适的问题，我们再看数据特性，然后确定具体方法</p>
+<a id="more"></a>
+
+<h3 id="众包的简单介绍"><a href="#众包的简单介绍" class="headerlink" title="众包的简单介绍"></a>众包的简单介绍</h3><ol>
+<li>众包任务和产品的生命周期：前者是动态的，后者是静态的，我们需要更个性化的推荐内容</li>
+<li>众包工人的选择和产品买者的选择：前者受限于技能水平，后者基本无限制，所以我们在算法中定义了分类</li>
+<li>众包任务质量和产品质量：工人质量直接影响任务完成质量，产品质量和工人无关，本文不考虑高水平的工人因为赶时间等因素完成低质量任务的情况</li>
+<li>众包任务的独特性和产品的单一性：众包任务因为其特殊的活动特性（被不同的工人完成），注定了他的独特性，而产品在流水线上生产，则需要唯一性。因此我们的推荐系统注定不能用单一的标准去衡量工人，不然会导致众包任务丧失其独特性。</li>
+</ol>
+<h3 id="数据及对应问题"><a href="#数据及对应问题" class="headerlink" title="数据及对应问题"></a>数据及对应问题</h3><h4 id="Foursquare-Dataset"><a href="#Foursquare-Dataset" class="headerlink" title="Foursquare Dataset"></a>Foursquare Dataset</h4><p>这是一个记录了纽约和东京各酒店用户的地理位置等信息的数据集。</p>
+<h4 id="CMCC-Dataset"><a href="#CMCC-Dataset" class="headerlink" title="CMCC Dataset"></a>CMCC Dataset</h4><p>这是一个记录了用户移动信息的数据集，精确到出入某地点到分钟。</p>
+<h4 id="D4D-Dataset"><a href="#D4D-Dataset" class="headerlink" title="D4D Dataset"></a>D4D Dataset</h4><p>“D4D” = “Data for Development”, 这是一个记录了匿名电话地理位置信息的数据集</p>
+<h4 id="Gowalla-Dataset"><a href="#Gowalla-Dataset" class="headerlink" title="Gowalla Dataset"></a>Gowalla Dataset</h4><ul>
+<li>记录了地理信息：社区，娱乐，食品，夜生活，户外活动，购物和旅行，每个主要类别都包含几个子类别</li>
+<li>收集用户个人资料，用户社交关系（来自Facebook），个人资料和用户的酒店入住信息</li>
+</ul>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>crowdsourcing</tag>
+        <tag>machine learning</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems</title>
-    <url>/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems/</url>
+    <url>/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/</url>
     <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>在传统推荐系统中，尚不存在贴合众包的时间短，任务重，工人匹配度要求高的推荐方案。在本文中，我们提出了一个含有两层的数据表示方案（新定义了两种评分：工人-类别适合性评分和工人-任务吸引力评分），以支持个性化的任务和工人建议。本文还扩展了两种优化方法，即最小均方差（LMS）和多反馈贝叶斯个性化排序算法(BPR)，以更好地适应众包系统中任务/工人推荐的特征。本文把提出的四种方法集成了两个流行的学习模型：矩阵分解和kNN，得出了适用于众包系统的两个top-N推荐算法：（1）Top-N-任务推荐算法，用于发现给定工作人员的前N个最适合的任务（2）Top-N -Workers推荐算法，用于确定任务请求者的前N名最佳工人。</p>
 <a id="more"></a>
 
@@ -115,8 +144,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>data</tag>
         <tag>crowdsourcing</tag>
+        <tag>data</tag>
       </tags>
   </entry>
   <entry>
