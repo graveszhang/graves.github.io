@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-05T04:09:28.009Z</updated>
+  <updated>2020-02-06T13:17:09.354Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems</title>
+    <link href="http://yoursite.com/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems/"/>
+    <id>http://yoursite.com/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems/</id>
+    <published>2020-02-06T05:51:59.000Z</published>
+    <updated>2020-02-06T13:17:09.354Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;在传统推荐系统中，尚不存在贴合众包的时间短，任务重，工人匹配度要求高的推荐方案。在本文中，我们提出了一个含有两层的数据表示方案（新定义了两种评分：工人-类别适合性评分和工人-任务吸引力评分），以支持个性化的任务和工人建议。本文还扩展了两种优化方法，即最小均方差（LMS）和多反馈贝叶斯个性化排序算法(BPR)，以更好地适应众包系统中任务/工人推荐的特征。本文把提出的四种方法集成了两个流行的学习模型：矩阵分解和kNN，得出了适用于众包系统的两个top-N推荐算法：（1）Top-N-任务推荐算法，用于发现给定工作人员的前N个最适合的任务（2）Top-N -Workers推荐算法，用于确定任务请求者的前N名最佳工人。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
+    
+      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
+    
+      <category term="ranking algorithms" scheme="http://yoursite.com/tags/ranking-algorithms/"/>
+    
+  </entry>
   
   <entry>
     <title>Crowdsourced Continuous Improvement of Medical Speech Recognition</title>
@@ -34,9 +61,9 @@
       <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="deep learning" scheme="http://yoursite.com/tags/deep-learning/"/>
-    
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="deep learning" scheme="http://yoursite.com/tags/deep-learning/"/>
     
       <category term="artificial intelligence" scheme="http://yoursite.com/tags/artificial-intelligence/"/>
     
@@ -61,9 +88,9 @@
       <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
-    
       <category term="data" scheme="http://yoursite.com/tags/data/"/>
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
   </entry>
   

@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems</title>
+    <url>/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems/</url>
+    <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>在传统推荐系统中，尚不存在贴合众包的时间短，任务重，工人匹配度要求高的推荐方案。在本文中，我们提出了一个含有两层的数据表示方案（新定义了两种评分：工人-类别适合性评分和工人-任务吸引力评分），以支持个性化的任务和工人建议。本文还扩展了两种优化方法，即最小均方差（LMS）和多反馈贝叶斯个性化排序算法(BPR)，以更好地适应众包系统中任务/工人推荐的特征。本文把提出的四种方法集成了两个流行的学习模型：矩阵分解和kNN，得出了适用于众包系统的两个top-N推荐算法：（1）Top-N-任务推荐算法，用于发现给定工作人员的前N个最适合的任务（2）Top-N -Workers推荐算法，用于确定任务请求者的前N名最佳工人。</p>
+<a id="more"></a>
+
+<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<li><p>文章定义的推荐方法首先要给任务和工人进行分类，从而获得最佳任务排名和最佳工人排名算法，TNT和TNW。最佳任务排名既要考虑最适合工人的任务也要考虑对公认最有吸引力的任务，最佳工人排名则有三步，首先拓展任务分类找到近似任务，从这些任务里找到有资格的工人，再从这些工人里筛选出最有可能接受任务的工人。</p>
+</li>
+<li><p>文章定义了两种分数：第一个是工人的任务适应分，第二个是任务喜好分。</p>
+</li>
+<li><p>本文运用了两种优化方法：最小均方差和贝叶斯个性化排序方法，且可以在矩阵矩阵分解或knn模型中训练。</p>
+</li>
+</ul>
+<h3 id="方法论和数据表达"><a href="#方法论和数据表达" class="headerlink" title="方法论和数据表达"></a>方法论和数据表达</h3><h4 id="方法论"><a href="#方法论" class="headerlink" title="方法论"></a>方法论</h4><p>这一部分文章主要表现了一些传统的电商推荐系统算法和众包的推荐系统算法的区别</p>
+<ol>
+<li>众包任务和产品的生命周期：前者是动态的，后者是静态的，我们需要更个性化的推荐内容</li>
+<li>众包工人的选择和产品买者的选择：前者受限于技能水平，后者基本无限制，所以我们在算法中定义了分类</li>
+<li>众包任务质量和产品质量：工人质量直接影响任务完成质量，产品质量和工人无关，本文不考虑高水平的工人因为赶时间等因素完成低质量任务的情况</li>
+<li>众包任务的独特性和产品的单一性：众包任务因为其特殊的活动特性（被不同的工人完成），注定了他的独特性，而产品在流水线上生产，则需要唯一性。因此我们的推荐系统注定不能用单一的标准去衡量工人，不然会导致众包任务丧失其独特性。</li>
+<li>双向性推荐系统：我们采用了TNT和TNW两种评分算法，使得推荐过程变成双向选择。</li>
+</ol>
+<h4 id="数据表达"><a href="#数据表达" class="headerlink" title="数据表达"></a>数据表达</h4><p>如前文所提到的，本文新定义了两种分数：工人的任务适应分和工人的任务喜好分。文章又新定义了几个参数完善了整个模型，具体数学表达及定义可以参见原文。</p>
+<p>由于工人具有定义的多个属性，所以使用了矩阵表达，在模型的学习上使用了矩阵分解和k近邻算法来预测其适用性/喜好分数，同样，具体数学表达及定义可以参见原文。</p>
+<p>由于前面定义的方法没有考虑工人对不喜欢任务的权重，这里采取了多反馈贝叶斯个性化排序算法(BPR)来优化前面得到的几个分数。之后的算法部分主要阐述了文章定义的TNT和TNW的具体实现，且考虑了多种标准，不同阶段下的不同情况。</p>
+<h3 id="结果评估"><a href="#结果评估" class="headerlink" title="结果评估"></a>结果评估</h3><p>这部分主要是说明调参的结果，给出了不同标准下两个算法的参数设置和实验结果。每个算法都有和其他算法的精确度比较，还计算了算法的复杂度。</p>
+]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>crowdsourcing</tag>
+        <tag>task recommendation</tag>
+        <tag>machine learning</tag>
+        <tag>ranking algorithms</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Crowdsourced Continuous Improvement of Medical Speech Recognition</title>
     <url>/2020/02/05/Medical%20Speech%20Recognition/</url>
     <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>本文描述了一种使用涉及多组工人的多步周期来不断提高大型医疗自动语音识别器（ASR）的准确性的方法。本文将解决医学领域的独特挑战，并讨论如何结合自动创建和众包的输入数据来完善ASR语言模型。改进周期有助于将原始系统的单词错误率从34.1％降低到10.4％，接近了接受医学转录训练的人类转录员的准确性。</p>
@@ -46,8 +83,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>deep learning</tag>
         <tag>crowdsourcing</tag>
+        <tag>deep learning</tag>
         <tag>artificial intelligence</tag>
       </tags>
   </entry>
@@ -78,8 +115,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>crowdsourcing</tag>
         <tag>data</tag>
+        <tag>crowdsourcing</tag>
       </tags>
   </entry>
   <entry>
