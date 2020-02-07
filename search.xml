@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Efficient budget allocation and Task Assignment in Crowdsourcing</title>
+    <url>/2020/02/07/2020-02-07-Efficient-budget/</url>
+    <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>本文探讨了如何就一个固定的预算提高在众包平台雇佣工人完成任务的效率，影响效率的不确定性有工人的工作时间，技能水平和完成任务的时间。已有的文章采用任务的顺序分配，往往假定一个任务只分配给一个工人，而本文的问题则设定在一个众包平台下的动态工人池中。文中介绍了一个新定义的数学模型，进行了多步实验证明了其比原有的顺序分配花费更少的时间且具备更优的策略。文章的主要贡献有</p>
+<p>（1）提出了在动态工人池下众包的预算分配和任务分配问题。 </p>
+<p>（2）提供有效的数学模型和算法科学地解决问题。</p>
+<p>（3）提供实验证据以支持有效性的算法。</p>
+<a id="more"></a>
+
+<h3 id="数学模型"><a href="#数学模型" class="headerlink" title="数学模型"></a>数学模型</h3><p>文中定义了一系列标签${1,2,…,I}$用来标注每个任务，第i个任务的难度标注为$\alpha_i$，t时间的工人数量为$N_t$, t时间的任务池为总任务池的子集$I_t$，最终每个任务的标签由所有标签的众数决定。由于是一系列的标签决策问题，我们使用马可夫决策过程(MDP)。</p>
+<p>马可夫决策过程是一个四元的元组$M=(S,A,P,R)$， 其中S是所有状态集合，A是所有行为的集合，P是状态量，R是奖励方程。每个时间点状态量都会改变，我们用额外的参量去定义，同时更新剩下的量，这里考虑使用动态规划。</p>
+<h3 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h3><p>对于预算分配问题，一种算法会每次随机取出一部分任务，直到预算耗尽，这种算法叫RAND。另一种算法EQ则将总预算分配到所有任务上，这种算法在任务难度相同时非常合适。</p>
+<p>文章提出了一个新的加权幂的平均，用来估计每个任务所占理想预算的权重，因此我们提出算法PM(p)，其中p是我们人工设定的参数，使得label上获取的reward最大。</p>
+<p><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/alg1.png" alt="Algorithm 1: PM(p)"></p>
+<h3 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h3><p>文章提供了三个实验结果，一个是设置p为1后比较RAND,EQ和HM的精确度，第二个是对不同算法进行调参，查看结果对比，最后一个是考虑的工人技能影响的不同算法比较。</p>
+]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>crowdsourcing</tag>
+        <tag>task assignment</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一篇关于机器学习和众包的会议文章的构想</title>
     <url>/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/</url>
     <content><![CDATA[<h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><p>黄老师：中科院教授 研究领域：机器学习，深度学习，数据挖掘，对众包领域不熟悉。</p>
@@ -144,8 +168,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>crowdsourcing</tag>
         <tag>data</tag>
+        <tag>crowdsourcing</tag>
       </tags>
   </entry>
   <entry>

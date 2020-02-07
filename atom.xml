@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-06T13:36:36.360Z</updated>
+  <updated>2020-02-07T12:24:30.001Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Efficient budget allocation and Task Assignment in Crowdsourcing</title>
+    <link href="http://yoursite.com/2020/02/07/2020-02-07-Efficient-budget/"/>
+    <id>http://yoursite.com/2020/02/07/2020-02-07-Efficient-budget/</id>
+    <published>2020-02-07T14:42:59.000Z</published>
+    <updated>2020-02-07T12:24:30.001Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;本文探讨了如何就一个固定的预算提高在众包平台雇佣工人完成任务的效率，影响效率的不确定性有工人的工作时间，技能水平和完成任务的时间。已有的文章采用任务的顺序分配，往往假定一个任务只分配给一个工人，而本文的问题则设定在一个众包平台下的动态工人池中。文中介绍了一个新定义的数学模型，进行了多步实验证明了其比原有的顺序分配花费更少的时间且具备更优的策略。文章的主要贡献有&lt;/p&gt;
+&lt;p&gt;（1）提出了在动态工人池下众包的预算分配和任务分配问题。 &lt;/p&gt;
+&lt;p&gt;（2）提供有效的数学模型和算法科学地解决问题。&lt;/p&gt;
+&lt;p&gt;（3）提供实验证据以支持有效性的算法。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="task assignment" scheme="http://yoursite.com/tags/task-assignment/"/>
+    
+  </entry>
   
   <entry>
     <title>一篇关于机器学习和众包的会议文章的构想</title>
@@ -112,9 +138,9 @@
       <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
-    
       <category term="data" scheme="http://yoursite.com/tags/data/"/>
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
   </entry>
   
