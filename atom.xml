@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-08T07:39:33.962Z</updated>
+  <updated>2020-02-08T09:53:17.452Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Accurate inference of crowdsourcing properties when using efficient allocation strategies</title>
+    <link href="http://yoursite.com/2020/02/08/2020-02-08-accurate/"/>
+    <id>http://yoursite.com/2020/02/08/2020-02-08-accurate/</id>
+    <published>2020-02-08T08:02:59.000Z</published>
+    <updated>2020-02-08T09:53:17.452Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;常见的分配策略通过减少准确完成单个任务所需的工作来提高众包效率，但是这些算法通过优先将工人分配给简单的任务而引入了偏差，导致完成的任务集不再代表所有任务。这种偏见挑战着对问题范围广泛的属性（例如典型的任务难度）或人群属性（例如工人完成时间）的推论，这些重要信息超出了人群响应本身。在这里，我们研究使用分配算法提高人群效率时有关问题属性的推论。我们介绍了决策显式概率采样（DEPS），一种在考虑分配策略引入的潜在偏差的同时执行问题属性推断的方法。对真实和综合众包数据进行的实验表明，DEPS优于基准推理方法，同时仍在利用分配方法的效率提升。使用非代表性数据时，可以对一般属性进行准确的推断，从而使众包发布者可以从给定的众包数据集中提取更多知识。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="data collection" scheme="http://yoursite.com/tags/data-collection/"/>
+    
+  </entry>
   
   <entry>
     <title>A Crowdsourcing Worker Quality Evaluation Algorithm on MapReduce for Big Data Applications</title>
@@ -135,9 +158,9 @@
     
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
-      <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
-    
       <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
+    
+      <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
     
       <category term="ranking algorithms" scheme="http://yoursite.com/tags/ranking-algorithms/"/>
     
@@ -188,9 +211,9 @@
       <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
-    
       <category term="data" scheme="http://yoursite.com/tags/data/"/>
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
   </entry>
   

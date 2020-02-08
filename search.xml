@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Accurate inference of crowdsourcing properties when using efficient allocation strategies</title>
+    <url>/2020/02/08/2020-02-08-accurate/</url>
+    <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>常见的分配策略通过减少准确完成单个任务所需的工作来提高众包效率，但是这些算法通过优先将工人分配给简单的任务而引入了偏差，导致完成的任务集不再代表所有任务。这种偏见挑战着对问题范围广泛的属性（例如典型的任务难度）或人群属性（例如工人完成时间）的推论，这些重要信息超出了人群响应本身。在这里，我们研究使用分配算法提高人群效率时有关问题属性的推论。我们介绍了决策显式概率采样（DEPS），一种在考虑分配策略引入的潜在偏差的同时执行问题属性推断的方法。对真实和综合众包数据进行的实验表明，DEPS优于基准推理方法，同时仍在利用分配方法的效率提升。使用非代表性数据时，可以对一般属性进行准确的推断，从而使众包发布者可以从给定的众包数据集中提取更多知识。</p>
+<a id="more"></a>
+
+<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>在本文中，我们描述了一个众包问题的模型固定预算，讨论众包问题的性质，我们引入并详细介绍了分配算法以提高众包效率，说明了使用有效分配策略时属性推断的挑战。我们还介绍了决策显式概率采样（DEPS），这是一种将分配算法的结果集成到属性推断中的策略。最后，我们进行了在实际和综合众包数据上使用DEPS进行的实验。</p>
+<h3 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h3><p>我们研究了三个众包数据集，这些数据都不是使用有效的分配算法生成的。</p>
+<h4 id="RTE识别文本蕴含（RTE）数据集"><a href="#RTE识别文本蕴含（RTE）数据集" class="headerlink" title="RTE识别文本蕴含（RTE）数据集"></a>RTE识别文本蕴含（RTE）数据集</h4><p>每个任务都是成对的文本片段，每对片段都具有一定的定向关系，将他们展示给Amazon Mechanical Turk工人，同时记录工人回答是否陈述涉及另一个。整个数据集由 800个可选任务组成，每个任务都有10个工人参与，因此总共记录了8000个工人的回答。</p>
+<p>####识别蓝鸟数据集。</p>
+<p>每个任务都是一张蓝鸟的照片，然后询问工人照片中是否包含蓝鸟。 数据集中共有108个可选任务，每个任务有39个工人参与，因此，总共有4212个答案。</p>
+<h4 id="识别页面相关性数据集"><a href="#识别页面相关性数据集" class="headerlink" title="识别页面相关性数据集"></a>识别页面相关性数据集</h4><p>每个任务都会显示一个网页和一个给定的主题，要求工人确定该网页是否与给定的主题相关。该数据集包含2275个任务，每个任务的需求工人数为1到10，实际平均工人参与为6.04。总共有13,749个工人的回答。</p>
+]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>crowdsourcing</tag>
+        <tag>data collection</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>A Crowdsourcing Worker Quality Evaluation Algorithm on MapReduce for Big Data Applications</title>
     <url>/2020/02/08/2020-02-08-evaluation/</url>
     <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>众包是在互联网蓬勃发展的背景下一种新兴的分布式计算和商业模式。随着众包系统的发展，众包方，承包商和任务的数据量迅速增长。基于大数据分析技术的工人质量评估已成为一项严峻的挑战。本文首先提出了一种通用的工人质量评估算法，该算法可应用于任何关键任务，例如标记，匹配，过滤，分类和许多其他新兴应用，而不会浪费资源。其次，我们使用MapReduce并行编程模型在Hadoop平台上实现评估算法。最后，为了有效地验证算法在各种大数据场景下的准确性和有效性，我们进行了一系列实验。实验结果表明，该算法是准确有效的。它具有较高的计算性能和水平可伸缩性。它适用于大数据环境中的大规模工人质量评估。</p>
@@ -132,8 +153,8 @@
       </categories>
       <tags>
         <tag>crowdsourcing</tag>
-        <tag>task recommendation</tag>
         <tag>machine learning</tag>
+        <tag>task recommendation</tag>
         <tag>ranking algorithms</tag>
       </tags>
   </entry>
@@ -215,8 +236,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>crowdsourcing</tag>
         <tag>data</tag>
+        <tag>crowdsourcing</tag>
       </tags>
   </entry>
   <entry>
