@@ -49,23 +49,26 @@
   };
 </script>
 
-  <meta name="description" content="摘要在传统推荐系统中，尚不存在贴合众包的时间短，任务重，工人匹配度要求高的推荐方案。在本文中，我们提出了一个含有两层的数据表示方案（新定义了两种评分：工人-类别适合性评分和工人-任务吸引力评分），以支持个性化的任务和工人建议。本文还扩展了两种优化方法，即最小均方差（LMS）和多反馈贝叶斯个性化排序算法(BPR)，以更好地适应众包系统中任务&#x2F;工人推荐的特征。本文把提出的四种方法集成了两个流行的学习模">
+  <meta name="description" content="摘要众包是在互联网蓬勃发展的背景下一种新兴的分布式计算和商业模式。随着众包系统的发展，众包方，承包商和任务的数据量迅速增长。基于大数据分析技术的工人质量评估已成为一项严峻的挑战。本文首先提出了一种通用的工人质量评估算法，该算法可应用于任何关键任务，例如标记，匹配，过滤，分类和许多其他新兴应用，而不会浪费资源。其次，我们使用MapReduce并行编程模型在Hadoop平台上实现评估算法。最后，为了有">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems">
-<meta property="og:url" content="http://yoursite.com/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/index.html">
+<meta property="og:title" content="A Crowdsourcing Worker Quality Evaluation Algorithm on MapReduce for Big Data Applications">
+<meta property="og:url" content="http://yoursite.com/2020/02/08/2020-02-08-evaluation/index.html">
 <meta property="og:site_name" content="GS | Horizon">
-<meta property="og:description" content="摘要在传统推荐系统中，尚不存在贴合众包的时间短，任务重，工人匹配度要求高的推荐方案。在本文中，我们提出了一个含有两层的数据表示方案（新定义了两种评分：工人-类别适合性评分和工人-任务吸引力评分），以支持个性化的任务和工人建议。本文还扩展了两种优化方法，即最小均方差（LMS）和多反馈贝叶斯个性化排序算法(BPR)，以更好地适应众包系统中任务&#x2F;工人推荐的特征。本文把提出的四种方法集成了两个流行的学习模">
+<meta property="og:description" content="摘要众包是在互联网蓬勃发展的背景下一种新兴的分布式计算和商业模式。随着众包系统的发展，众包方，承包商和任务的数据量迅速增长。基于大数据分析技术的工人质量评估已成为一项严峻的挑战。本文首先提出了一种通用的工人质量评估算法，该算法可应用于任何关键任务，例如标记，匹配，过滤，分类和许多其他新兴应用，而不会浪费资源。其次，我们使用MapReduce并行编程模型在Hadoop平台上实现评估算法。最后，为了有">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-02-06T05:51:59.000Z">
-<meta property="article:modified_time" content="2020-02-06T13:17:09.354Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/graveszhang/Img-Host/master/eva-al11.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/graveszhang/Img-Host/master/eva-al2.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/graveszhang/Img-Host/master/eva-al3.png">
+<meta property="article:published_time" content="2020-02-08T04:02:59.000Z">
+<meta property="article:modified_time" content="2020-02-08T07:39:33.962Z">
 <meta property="article:author" content="Liqin Zhang">
 <meta property="article:tag" content="crowdsourcing">
-<meta property="article:tag" content="task recommendation">
-<meta property="article:tag" content="machine learning">
-<meta property="article:tag" content="ranking algorithms">
+<meta property="article:tag" content="big data">
+<meta property="article:tag" content="quality control">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/graveszhang/Img-Host/master/eva-al11.png">
 
-<link rel="canonical" href="http://yoursite.com/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/">
+<link rel="canonical" href="http://yoursite.com/2020/02/08/2020-02-08-evaluation/">
 
 
 <script id="page-configurations">
@@ -77,7 +80,7 @@
   };
 </script>
 
-  <title>Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems | GS | Horizon</title>
+  <title>A Crowdsourcing Worker Quality Evaluation Algorithm on MapReduce for Big Data Applications | GS | Horizon</title>
   
 
 
@@ -221,7 +224,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/08/2020-02-08-evaluation/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpeg">
@@ -234,7 +237,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems
+          A Crowdsourcing Worker Quality Evaluation Algorithm on MapReduce for Big Data Applications
         </h1>
 
         <div class="post-meta">
@@ -244,7 +247,7 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-02-06 13:51:59" itemprop="dateCreated datePublished" datetime="2020-02-06T13:51:59+08:00">2020-02-06</time>
+              <time title="创建时间：2020-02-08 12:02:59" itemprop="dateCreated datePublished" datetime="2020-02-08T12:02:59+08:00">2020-02-08</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -259,7 +262,7 @@
             </span>
 
           
-            <span id="/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/" class="post-meta-item leancloud_visitors" data-flag-title="Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems" title="阅读次数">
+            <span id="/2020/02/08/2020-02-08-evaluation/" class="post-meta-item leancloud_visitors" data-flag-title="A Crowdsourcing Worker Quality Evaluation Algorithm on MapReduce for Big Data Applications" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -274,8 +277,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/02/08/2020-02-08-evaluation/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/08/2020-02-08-evaluation/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -285,14 +288,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.2k</span>
+              <span>2.6k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -304,29 +307,26 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>在传统推荐系统中，尚不存在贴合众包的时间短，任务重，工人匹配度要求高的推荐方案。在本文中，我们提出了一个含有两层的数据表示方案（新定义了两种评分：工人-类别适合性评分和工人-任务吸引力评分），以支持个性化的任务和工人建议。本文还扩展了两种优化方法，即最小均方差（LMS）和多反馈贝叶斯个性化排序算法(BPR)，以更好地适应众包系统中任务/工人推荐的特征。本文把提出的四种方法集成了两个流行的学习模型：矩阵分解和kNN，得出了适用于众包系统的两个top-N推荐算法：（1）Top-N-任务推荐算法，用于发现给定工作人员的前N个最适合的任务（2）Top-N -Workers推荐算法，用于确定任务请求者的前N名最佳工人。</p>
+        <h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>众包是在互联网蓬勃发展的背景下一种新兴的分布式计算和商业模式。随着众包系统的发展，众包方，承包商和任务的数据量迅速增长。基于大数据分析技术的工人质量评估已成为一项严峻的挑战。本文首先提出了一种通用的工人质量评估算法，该算法可应用于任何关键任务，例如标记，匹配，过滤，分类和许多其他新兴应用，而不会浪费资源。其次，我们使用MapReduce并行编程模型在Hadoop平台上实现评估算法。最后，为了有效地验证算法在各种大数据场景下的准确性和有效性，我们进行了一系列实验。实验结果表明，该算法是准确有效的。它具有较高的计算性能和水平可伸缩性。它适用于大数据环境中的大规模工人质量评估。</p>
 <a id="more"></a>
 
-<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
-<li><p>文章定义的推荐方法首先要给任务和工人进行分类，从而获得最佳任务排名和最佳工人排名算法，TNT和TNW。最佳任务排名既要考虑最适合工人的任务也要考虑对公认最有吸引力的任务，最佳工人排名则有三步，首先拓展任务分类找到近似任务，从这些任务里找到有资格的工人，再从这些工人里筛选出最有可能接受任务的工人。</p>
-</li>
-<li><p>文章定义了两种分数：第一个是工人的任务适应分，第二个是任务喜好分。</p>
-</li>
-<li><p>本文运用了两种优化方法：最小均方差和贝叶斯个性化排序方法，且可以在矩阵矩阵分解或knn模型中训练。</p>
-</li>
-</ul>
-<h3 id="方法论和数据表达"><a href="#方法论和数据表达" class="headerlink" title="方法论和数据表达"></a>方法论和数据表达</h3><h4 id="方法论"><a href="#方法论" class="headerlink" title="方法论"></a>方法论</h4><p>这一部分文章主要表现了一些传统的电商推荐系统算法和众包的推荐系统算法的区别</p>
-<ol>
-<li>众包任务和产品的生命周期：前者是动态的，后者是静态的，我们需要更个性化的推荐内容</li>
-<li>众包工人的选择和产品买者的选择：前者受限于技能水平，后者基本无限制，所以我们在算法中定义了分类</li>
-<li>众包任务质量和产品质量：工人质量直接影响任务完成质量，产品质量和工人无关，本文不考虑高水平的工人因为赶时间等因素完成低质量任务的情况</li>
-<li>众包任务的独特性和产品的单一性：众包任务因为其特殊的活动特性（被不同的工人完成），注定了他的独特性，而产品在流水线上生产，则需要唯一性。因此我们的推荐系统注定不能用单一的标准去衡量工人，不然会导致众包任务丧失其独特性。</li>
-<li>双向性推荐系统：我们采用了TNT和TNW两种评分算法，使得推荐过程变成双向选择。</li>
-</ol>
-<h4 id="数据表达"><a href="#数据表达" class="headerlink" title="数据表达"></a>数据表达</h4><p>如前文所提到的，本文新定义了两种分数：工人的任务适应分和工人的任务喜好分。文章又新定义了几个参数完善了整个模型，具体数学表达及定义可以参见原文。</p>
-<p>由于工人具有定义的多个属性，所以使用了矩阵表达，在模型的学习上使用了矩阵分解和k近邻算法来预测其适用性/喜好分数，同样，具体数学表达及定义可以参见原文。</p>
-<p>由于前面定义的方法没有考虑工人对不喜欢任务的权重，这里采取了多反馈贝叶斯个性化排序算法(BPR)来优化前面得到的几个分数。之后的算法部分主要阐述了文章定义的TNT和TNW的具体实现，且考虑了多种标准，不同阶段下的不同情况。</p>
-<h3 id="结果评估"><a href="#结果评估" class="headerlink" title="结果评估"></a>结果评估</h3><p>这部分主要是说明调参的结果，给出了不同标准下两个算法的参数设置和实验结果。每个算法都有和其他算法的精确度比较，还计算了算法的复杂度。</p>
+<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>众包是一种分布式解决问题的生产力模型，在这种分布式计算的模型中，企业通过互联网分配任务，并招募更多合适的工人来解决一些问题。如今，越来越多的企业和企业开始使用众包模型。对于企业而言，众包模式可以降低生产成本，并提升其劳动力缺口和创造力。众包模式面向公众，每个互联网用户都可以选择参与他们感兴趣的众包任务，从而为企业提供解决方案。但是，对于一项任务，可能会涉及大量的工人并提供解决方案。当众筹者面对如此众多的解决方案时，他们会感到困惑，他们很难做出最终选择。而且，并非每个人都有资格因其背景和个人素质的不同而服务于企业。众包平台甚至可能有恶意工作者。因此，工人质量控制已逐渐成为众包模式的重要挑战。从大量的工人数据中挖掘有关工人自我素质的信息，为众包提供一些参考非常重要。</p>
+<p>本文将主要集中在工人的质量控制问题上，工人素质评估将帮助企业招聘，可为他们提供高质量解决方案的高素质工人。这对于众包平台的任务质量和环境都具有重要意义。由于具有大规模的众包平台，众包者几乎随时都可以发布任务。另外，大量的工人参与这些任务。因此，众包平台每时每刻都会生成大量数据，包括众包任务，员工行为和任务解决方案。大量数据对众包平台的计算性能提出了新的要求。大数据技术的使用对这些海量数据进行特殊处理是众包平台需要考虑的关键问题。</p>
+<p>为了在众包平台上准确评估工人的素质，我们首先提出了一种通用的工人素质评估算法，该算法可对多个工人和多个问题类型进行工人质量评估，而无需预先制定答案。该算法具有更强的可扩展性和实用性。其次，我们建议使用MapReduce编程模型来实现大规模并行计算以提高工作人员的素质，并在Hadoop平台中实施所提出的算法。最后，我们进行了一系列实验，以分析和评估工人质量评估算法的性能。实验结果表明，该算法是有效的，并且具有较高的性能。它可以满足在大数据环境的众包平台中对大型工人进行并行评估的需求。</p>
+<h3 id="工人质量评估算法"><a href="#工人质量评估算法" class="headerlink" title="工人质量评估算法"></a>工人质量评估算法</h3><p>我们首先提出一种面向选择的工人质量评估算法，该算法称为M-1算法。基于M-1算法，我们进一步提出了多员工评估方案和M-X算法，一种多选评估方案。</p>
+<h4 id="M-1算法"><a href="#M-1算法" class="headerlink" title="M-1算法"></a>M-1算法</h4><p>M-1算法的思想描述如下：假设所有提供的问题属于同一类型（单选），并且没有预先制定的答案。让三个工人w1， w2，w3同时回答这些问题。问题的数量为N。然后，我们将根据他们的回答相似性来计算每个工人回答问题的准确性。</p>
+<p>众包平台中有各种各样的任务。不同的任务具有不同的M值并具有各自的特征。与历史任务相比，新发布的任务可能具有完全不同的模式。而且，所有新发布的任务都没有预先开发的答案，并且选项的顺序是不可预测的。因此，很难预测哪个选项更可能是正确的答案以及工人对不同选项的偏好。为了为众包工人质量评估提供一个通用的解决方案，我们假设每个工人拥有为一个问题选择每个错误选项的相同概率。</p>
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/eva-al11.png"/>
+
+<h4 id="基于M-1的多人评价算法"><a href="#基于M-1的多人评价算法" class="headerlink" title="基于M-1的多人评价算法"></a>基于M-1的多人评价算法</h4><p>在M-1算法中，我们解决了三工质量评估的问题。但是，在实际的众包环境中，可能有多个工人同时参与同一任务。如何评估多功能工人的质量是一个尚待解决的实际问题。因此，我们提出了一种基于M-1算法的多员工评价方案，该方案采用了滑动窗口的思想。</p>
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/eva-al2.png"/>
+
+<h4 id="M-X-算法"><a href="#M-X-算法" class="headerlink" title="M-X 算法"></a>M-X 算法</h4><p>与单选相比，选择题是更一般的问题类型。更确切地说，单选是多项选择的一种特殊形式。例如，对于某些标签问题，我们只需要为每个对象分配一个标签。但是，在大多数情况下，我们需要为每个对象分配多个标签。因此，M-X算法专注于多项选择题。对于多项选择，不同工人对同一问题的答案往往会有很大差异。因此，当我们解决多项选择题时，我们几乎无法使用M-1算法直接评估工人的素质。因此，基于M-1算法，我们提出了一种针对问题的多项选择的工人质量评估算法，称为M-X算法。</p>
+<p>M-X算法的思想如下。首先，我们根据一个问题的M值将其划分为M个子问题，M值代表每个多项选择问题的选择数量。每个选项被视为具有两个选项的单选问题，每个具有M个选项的多项选择题都将转换为M个单选问题。其次，对于每个选项维度，我们将其作为子任务处理，其中包含N个单选问题。这样，每个任务被划分为M个子任务。然后，我们使用算法2分别计算工人在每个选项维度上的准确性。最后，对于一个工人，我们收集所有选项维度的准确性，以计算工人对多项选择题的综合准确性值。对于每个多项选择题，答案都是正确的必要和充分条件是工人为多项选择题选择所有正确的选择。因此，工人的最终准确性是从每个选项的尺寸获得的所有准确性值的乘积。</p>
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/eva-al3.png"/>
+
+<h3 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h3><p>在本节的实验之一中，我们招募10名工人参与同一任务。然后，我们使用提出的工人质量评估算法来计算每个工人的准确性，以初步验证我们算法的有效性。为了在各种大数据场景中更有效地验证该算法的准确性和有效性，我们在本节中进一步进行了一系列仿真实验，以分析和评估工人质量评估算法的性能。实验是在Hadoop平台上使用模拟数据进行的。对于一个任务，我们首先根据任务中的问题类型（布尔值，单选，多项选择等）随机生成问题的答案。然后，我们随机生成不同级别的工人。工人的水平主要取决于准确性。精度在0到1之间。最后，我们根据生成的工人精度来生成每个工人对每个问题的响应。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在本文中，我们首先提出了一种通用的工人质量评估算法，该算法可用于没有预先制定的答案的任何关键的众包任务。然后，为了满足在大数据环境中对多个工作人员进行并行评估的需求，我们使用Map-Reduce编程模型在Hadoop平台中实现了该算法。实验结果表明，该算法准确，在大数据环境下具有较高的效率和性能。<br>在未来的研究中，我们将进一步考虑影响员工素质的其他因素，例如回答时间和任务难度。这些因素将有助于实现对工人素质的全面评估，以适应大数据环境下的众包模式在不同情况下的工人素质评估问题。</p>
 
     </div>
 
@@ -337,9 +337,8 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/crowdsourcing/" rel="tag"># crowdsourcing</a>
-              <a href="/tags/task-recommendation/" rel="tag"># task recommendation</a>
-              <a href="/tags/machine-learning/" rel="tag"># machine learning</a>
-              <a href="/tags/ranking-algorithms/" rel="tag"># ranking algorithms</a>
+              <a href="/tags/big-data/" rel="tag"># big data</a>
+              <a href="/tags/quality-control/" rel="tag"># quality control</a>
           </div>
 
         
@@ -348,13 +347,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/02/05/Medical%20Speech%20Recognition/" rel="prev" title="Crowdsourced Continuous Improvement of Medical Speech Recognition">
-      <i class="fa fa-chevron-left"></i> Crowdsourced Continuous Improvement of Medical Speech Recognition
+    <a href="/2020/02/07/2020-02-08-trust-aware/" rel="prev" title="A trust‐aware task allocation method using deep q‐learning for uncertain mobile crowdsourcing">
+      <i class="fa fa-chevron-left"></i> A trust‐aware task allocation method using deep q‐learning for uncertain mobile crowdsourcing
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" rel="next" title="一篇关于机器学习和众包的会议文章的构想">
-      一篇关于机器学习和众包的会议文章的构想 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -415,7 +411,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#摘要"><span class="nav-number">1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#介绍"><span class="nav-number">2.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方法论和数据表达"><span class="nav-number">3.</span> <span class="nav-text">方法论和数据表达</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#方法论"><span class="nav-number">3.1.</span> <span class="nav-text">方法论</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数据表达"><span class="nav-number">3.2.</span> <span class="nav-text">数据表达</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结果评估"><span class="nav-number">4.</span> <span class="nav-text">结果评估</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#摘要"><span class="nav-number">1.</span> <span class="nav-text">摘要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#介绍"><span class="nav-number">2.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#工人质量评估算法"><span class="nav-number">3.</span> <span class="nav-text">工人质量评估算法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#M-1算法"><span class="nav-number">3.1.</span> <span class="nav-text">M-1算法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#基于M-1的多人评价算法"><span class="nav-number">3.2.</span> <span class="nav-text">基于M-1的多人评价算法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#M-X-算法"><span class="nav-number">3.3.</span> <span class="nav-text">M-X 算法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实验"><span class="nav-number">4.</span> <span class="nav-text">实验</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

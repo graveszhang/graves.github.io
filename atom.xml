@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-07T12:24:30.001Z</updated>
+  <updated>2020-02-08T07:39:33.962Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A Crowdsourcing Worker Quality Evaluation Algorithm on MapReduce for Big Data Applications</title>
+    <link href="http://yoursite.com/2020/02/08/2020-02-08-evaluation/"/>
+    <id>http://yoursite.com/2020/02/08/2020-02-08-evaluation/</id>
+    <published>2020-02-08T04:02:59.000Z</published>
+    <updated>2020-02-08T07:39:33.962Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;众包是在互联网蓬勃发展的背景下一种新兴的分布式计算和商业模式。随着众包系统的发展，众包方，承包商和任务的数据量迅速增长。基于大数据分析技术的工人质量评估已成为一项严峻的挑战。本文首先提出了一种通用的工人质量评估算法，该算法可应用于任何关键任务，例如标记，匹配，过滤，分类和许多其他新兴应用，而不会浪费资源。其次，我们使用MapReduce并行编程模型在Hadoop平台上实现评估算法。最后，为了有效地验证算法在各种大数据场景下的准确性和有效性，我们进行了一系列实验。实验结果表明，该算法是准确有效的。它具有较高的计算性能和水平可伸缩性。它适用于大数据环境中的大规模工人质量评估。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="big data" scheme="http://yoursite.com/tags/big-data/"/>
+    
+      <category term="quality control" scheme="http://yoursite.com/tags/quality-control/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A trust‐aware task allocation method using deep q‐learning for uncertain mobile crowdsourcing</title>
+    <link href="http://yoursite.com/2020/02/07/2020-02-08-trust-aware/"/>
+    <id>http://yoursite.com/2020/02/07/2020-02-08-trust-aware/</id>
+    <published>2020-02-07T15:42:59.000Z</published>
+    <updated>2020-02-08T03:30:01.343Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;移动众包已经成为一种很有前途的协作范例，每个任务都需要在指定空间位置附近找到工作人员。考虑到参与者所需求的移动设备的隐私问题，信任将是有效协作的重要因素。移动众包的首要问题是将值得信赖的移动工作人员分配给附近的任务以进行协作。对于不确定的移动众包系统而言，大规模在线空间任务分配极具挑战性。这种不确定性可能会误导任务分配，从而导致性能下降。此外，现实世界中众包的大规模性质对不确定环境中的空间任务分配提出了相当大的挑战。为了解决上述挑战，我们需要制定移动众包任务分配的优化问题，以最大程度地提高工人的信任度并最小化移动距离成本。其次，针对不确定的众包场景，我们提出了一种基于马尔可夫决策过程的移动众包模型（MCMDP），以说明动态的信任感知任务分配问题。第三，为了稳定地解决大规模MCMDP问题，本研究提出了一种改进的基于深度-Q-学习的信任感知任务分配算法，该算法结合了信任感知任务分配和深度Q学习作为对不确定的移动众包系统的改进。最后，实验结果表明改进的DQL-TTA算法可以在许多训练迭代中稳定收敛。与参考算法相比，我们提出的算法在实验数据集上获得了有效的解决方案。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="collaborative computing" scheme="http://yoursite.com/tags/collaborative-computing/"/>
+    
+      <category term="mobile crowdsourcing" scheme="http://yoursite.com/tags/mobile-crowdsourcing/"/>
+    
+      <category term="task allocation" scheme="http://yoursite.com/tags/task-allocation/"/>
+    
+  </entry>
   
   <entry>
     <title>Efficient budget allocation and Task Assignment in Crowdsourcing</title>
@@ -138,9 +188,9 @@
       <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="data" scheme="http://yoursite.com/tags/data/"/>
-    
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="data" scheme="http://yoursite.com/tags/data/"/>
     
   </entry>
   
