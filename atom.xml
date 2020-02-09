@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-08T09:53:17.452Z</updated>
+  <updated>2020-02-09T11:45:52.624Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一篇关于众包的简要介绍和一些数据集整理</title>
+    <link href="http://yoursite.com/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/"/>
+    <id>http://yoursite.com/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/</id>
+    <published>2020-02-08T16:18:59.000Z</published>
+    <updated>2020-02-09T11:45:52.624Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;众包是什么？&quot;&gt;&lt;a href=&quot;#众包是什么？&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>Accurate inference of crowdsourcing properties when using efficient allocation strategies</title>
@@ -116,30 +145,6 @@
   </entry>
   
   <entry>
-    <title>一篇关于机器学习和众包的会议文章的构想</title>
-    <link href="http://yoursite.com/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/"/>
-    <id>http://yoursite.com/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/</id>
-    <published>2020-02-06T13:51:59.000Z</published>
-    <updated>2020-02-06T13:36:36.360Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;背景介绍&quot;&gt;&lt;a href=&quot;#背景介绍&quot; class=&quot;headerlink&quot; title=&quot;背景介绍&quot;&gt;&lt;/a&gt;背景介绍&lt;/h3&gt;&lt;p&gt;黄老师：中科院教授 研究领域：机器学习，深度学习，数据挖掘，对众包领域不熟悉。&lt;/p&gt;
-&lt;p&gt;要求：需要我们这边把问题和数据捋清楚，黄老师负责用数据建模（可以是分类，回归，排序之类的模型），有的问题可以学习，有的不能。找到合适的问题，我们再看数据特性，然后确定具体方法&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
-    
-    
-      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
-    
-      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems</title>
     <link href="http://yoursite.com/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/"/>
     <id>http://yoursite.com/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/</id>
@@ -158,9 +163,9 @@
     
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
-      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
-    
       <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
+    
+      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
     
       <category term="ranking algorithms" scheme="http://yoursite.com/tags/ranking-algorithms/"/>
     

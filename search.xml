@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>一篇关于众包的简要介绍和一些数据集整理</title>
+    <url>/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/</url>
+    <content><![CDATA[<h3 id="众包是什么？"><a href="#众包是什么？" class="headerlink" title="众包是什么？"></a>众包是什么？</h3><p>众包，简单来说就是在当前互联网蓬勃发展的大环境下一种新兴的利用了分布式计算的商业模式。曾有人预言说，计算机很长一段时间无法取代人类，计算机和人类会各自负责自己擅长的部分。现在的众包任务就是如此，它指那些主要需求人类智慧解决的任务，这些任务往往工作量不大，或是可以拆分成许多小任务。</p>
+<p>众包通常具有三个基本要素：提供众包平台的供应商，众包任务发布者，参与众包任务的工人。</p>
+<p>当前主流的众包系统问题主要有：众包任务设计，时空众包任务分配，工人的质量评估和选择，结果聚合。</p>
+<h3 id="数据集及其研究问题"><a href="#数据集及其研究问题" class="headerlink" title="数据集及其研究问题"></a>数据集及其研究问题</h3><h4 id="Foursquare-Dataset"><a href="#Foursquare-Dataset" class="headerlink" title="Foursquare Dataset"></a>Foursquare Dataset</h4><p>地址：<a href="https://sites.google.com/site/yangdingqi/home/foursquare-dataset" target="_blank" rel="noopener">https://sites.google.com/site/yangdingqi/home/foursquare-dataset</a></p>
+<p>介绍：Foursquare是一家基于用户地理位置信息（<a href="https://baike.baidu.com/item/LBS/1742" target="_blank" rel="noopener">LBS</a>）的手机服务网站，鼓励手机用户同他人分享自己当前所在地理位置等信息。这个数据集记录了从2011年10月24日至2012年2月20日关于纽约市餐厅的数据。数据集中有3112个用户信息和3298个位置信息，还有27149个“check-in”和10377个用户的“tips”。</p>
+<p>相关研究：通过用户的地理信息研究其对于特定地点的偏好（incentives），改进空间众包任务的推荐系统。</p>
+<ul>
+<li>Dingqi Yang, Daqing Zhang, Zhiyong Yu and Zhiwen Yu, Fine-Grained Preference-Aware Location Search Leveraging Crowdsourced Digital Footprints from LBSNs. In Proceeding of the 2013 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2013), September 8-12, 2013, in Zurich, Switzerland. <a href="http://www.google.com/url?q=http%3A%2F%2Fwww-public.it-sudparis.eu%2F~zhang_da%2Fpub%2FUbiComp_2013_Yang.pdf&sa=D&sntz=1&usg=AFQjCNErnJGR0J3FJH4lkJdA9oRjkhsglQ" target="_blank" rel="noopener">[PDF]</a></li>
+<li>Dingqi Yang, Daqing Zhang, Zhiyong Yu and Zhu Wang, A Sentiment-enhanced Personalized Location Recommendation System. In Proceeding of the 24th ACM Conference on Hypertext and Social Media (HT 2013), 1-3 May, 2013, Paris, France. <a href="http://www.google.com/url?q=http%3A%2F%2Fwww-public.it-sudparis.eu%2F~zhang_da%2Fpub%2FHT2013_Dingqi%20YANG.pdf&sa=D&sntz=1&usg=AFQjCNE-KO-83K11ShSmi7XaEeGaxQf0mw" target="_blank" rel="noopener">[PDF]</a></li>
+</ul>
+<h4 id="CMCC-Dataset"><a href="#CMCC-Dataset" class="headerlink" title="CMCC Dataset"></a>CMCC Dataset</h4><p>地址：<a href="http://datatech.zjdex.com/data/" target="_blank" rel="noopener">http://datatech.zjdex.com/data/</a> （暂时无法访问）</p>
+<p>介绍：这个数据集记录了从2017年5月28日到2017年6月28日浙江省手机用户的移动信息，可以获取到的信息有出入某地点（经纬度）的具体时刻（精确到分钟）。</p>
+<p>相关研究：移动众包（使用移动设备进行众包，利用高移动性可以解决那些地理上分散的任务），为移动众包分配任务的问题</p>
+<ul>
+<li>Z. Feng, Y. Zhu, Q. Zhang, L. M. Ni and A. V. Vasilakos, “TRAC: Truthful auction for location-aware collaborative sensing in mobile crowdsourcing,” <em>IEEE INFOCOM 2014 - IEEE Conference on Computer Communications</em>, Toronto, ON, 2014, pp. 1231-1239. [<a href="https://ieeexplore.ieee.org/abstract/document/6848055/" target="_blank" rel="noopener">pdf</a>]</li>
+</ul>
+<h4 id="D4D-Dataset"><a href="#D4D-Dataset" class="headerlink" title="D4D Dataset"></a>D4D Dataset</h4><p>“D4D” = “Data for Development”, 这也是一个记录了手机的地理位置信息的数据集。其中包含两种数据类型。一种包含有关手机信号的信息，包括信号ID，纬度和经度。另一个包含在美国橘县象牙湾的50,000个用户的电话记录。</p>
+<p>相关研究：众包任务分配问题</p>
+<ul>
+<li>Zhang, D., Xiong, H., Wang, L., &amp; Chen, G. (2014, September). CrowdRecruiter: selecting participants for piggyback crowdsensing under probabilistic coverage constraint. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (pp. 703-714). ACM.</li>
+<li>Liu, Y., Guo, B., Wang, Y., Wu, W., Yu, Z., &amp; Zhang, D. (2016, September). TaskMe: multi-task allocation in mobile crowd sensing. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (pp. 403- 414). ACM.</li>
+<li>Xiong, H., Zhang, D., Chen, G., Wang, L., Gauthier, V., &amp; Barnes, L. E. (2016). iCrowd: Near-optimal task allocation for piggyback crowdsensing. IEEE Transactions on Mobile Computing, 15(8), 2010-2022.</li>
+<li>Wang, J., Wang, Y., Zhang, D., Xiong, H., Wang, L., &amp; Sumi, H., et al. (2016). Fine-grained multi-task allocation for participatory sensing with a shared budget. Internet of Things Journal (in press). </li>
+<li>Wang, J., Wang, Y., Zhang, D., Wang, F., He, Y., &amp; Ma, L. PSAllocator: Multi-Task Allocation for Participatory Sensing with Sensing Capability Constraints. The, ACM Conference on Computer- Supported Cooperative Work and Social Computing (CSCW 2017).  </li>
+</ul>
+<h4 id="Stanford-Large-Network-Dataset-Collection-（Brightkite-and-Gowalla）"><a href="#Stanford-Large-Network-Dataset-Collection-（Brightkite-and-Gowalla）" class="headerlink" title="Stanford Large Network Dataset Collection （Brightkite and Gowalla）"></a>Stanford Large Network Dataset Collection （Brightkite and Gowalla）</h4><p>Source: J. Leskovec and A. Krevl, “Snap datasets: Stanford large network dataset collection,” Jun. 2014.</p>
+<p>介绍：该数据集记录了大量社交网络信息，包括社区，娱乐，食品，夜生活，户外活动，购物和旅行，以及其子类别。该数据集还收集了用户的个人资料，社交关系和酒店入住信息。</p>
+<p>相关研究：通过众包数据在基于地点产生的社交网络中探索影响力（传播）最大化问题，众包工人的隐私问题</p>
+<ul>
+<li>Using Crowdsourced Data in Location-based Social Networks to Explore Influence Maximization </li>
+<li>(A Book) Trends and Applications in Knowledge dISCOVERY AND Data Mining</li>
+</ul>
+]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>crowdsourcing</tag>
+        <tag>machine learning</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Accurate inference of crowdsourcing properties when using efficient allocation strategies</title>
     <url>/2020/02/08/2020-02-08-accurate/</url>
     <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>常见的分配策略通过减少准确完成单个任务所需的工作来提高众包效率，但是这些算法通过优先将工人分配给简单的任务而引入了偏差，导致完成的任务集不再代表所有任务。这种偏见挑战着对问题范围广泛的属性（例如典型的任务难度）或人群属性（例如工人完成时间）的推论，这些重要信息超出了人群响应本身。在这里，我们研究使用分配算法提高人群效率时有关问题属性的推论。我们介绍了决策显式概率采样（DEPS），一种在考虑分配策略引入的潜在偏差的同时执行问题属性推断的方法。对真实和综合众包数据进行的实验表明，DEPS优于基准推理方法，同时仍在利用分配方法的效率提升。使用非代表性数据时，可以对一般属性进行准确的推断，从而使众包发布者可以从给定的众包数据集中提取更多知识。</p>
@@ -93,35 +137,6 @@
       </tags>
   </entry>
   <entry>
-    <title>一篇关于机器学习和众包的会议文章的构想</title>
-    <url>/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/</url>
-    <content><![CDATA[<h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><p>黄老师：中科院教授 研究领域：机器学习，深度学习，数据挖掘，对众包领域不熟悉。</p>
-<p>要求：需要我们这边把问题和数据捋清楚，黄老师负责用数据建模（可以是分类，回归，排序之类的模型），有的问题可以学习，有的不能。找到合适的问题，我们再看数据特性，然后确定具体方法</p>
-<a id="more"></a>
-
-<h3 id="众包的简单介绍"><a href="#众包的简单介绍" class="headerlink" title="众包的简单介绍"></a>众包的简单介绍</h3><ol>
-<li>众包任务和产品的生命周期：前者是动态的，后者是静态的，我们需要更个性化的推荐内容</li>
-<li>众包工人的选择和产品买者的选择：前者受限于技能水平，后者基本无限制，所以我们在算法中定义了分类</li>
-<li>众包任务质量和产品质量：工人质量直接影响任务完成质量，产品质量和工人无关，本文不考虑高水平的工人因为赶时间等因素完成低质量任务的情况</li>
-<li>众包任务的独特性和产品的单一性：众包任务因为其特殊的活动特性（被不同的工人完成），注定了他的独特性，而产品在流水线上生产，则需要唯一性。因此我们的推荐系统注定不能用单一的标准去衡量工人，不然会导致众包任务丧失其独特性。</li>
-</ol>
-<h3 id="数据及对应问题"><a href="#数据及对应问题" class="headerlink" title="数据及对应问题"></a>数据及对应问题</h3><h4 id="Foursquare-Dataset"><a href="#Foursquare-Dataset" class="headerlink" title="Foursquare Dataset"></a>Foursquare Dataset</h4><p>这是一个记录了纽约和东京各酒店用户的地理位置等信息的数据集。</p>
-<h4 id="CMCC-Dataset"><a href="#CMCC-Dataset" class="headerlink" title="CMCC Dataset"></a>CMCC Dataset</h4><p>这是一个记录了用户移动信息的数据集，精确到出入某地点到分钟。</p>
-<h4 id="D4D-Dataset"><a href="#D4D-Dataset" class="headerlink" title="D4D Dataset"></a>D4D Dataset</h4><p>“D4D” = “Data for Development”, 这是一个记录了匿名电话地理位置信息的数据集</p>
-<h4 id="Gowalla-Dataset"><a href="#Gowalla-Dataset" class="headerlink" title="Gowalla Dataset"></a>Gowalla Dataset</h4><ul>
-<li>记录了地理信息：社区，娱乐，食品，夜生活，户外活动，购物和旅行，每个主要类别都包含几个子类别</li>
-<li>收集用户个人资料，用户社交关系（来自Facebook），个人资料和用户的酒店入住信息</li>
-</ul>
-<h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
-      <categories>
-        <category>科研</category>
-      </categories>
-      <tags>
-        <tag>crowdsourcing</tag>
-        <tag>machine learning</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Efficient Learning-Based Recommendation Algorithms for Top-N Tasks and Top-N Workers in Large-Scale Crowdsourcing Systems</title>
     <url>/2020/02/06/2020-02-06-Efficient%20Learning-Based%20Recommendation%20Algorithms%20for%20Top-N%20Tasks%20and%20Top-N%20Workers%20in%20Large-Scale-Crowdsourcing-Systems%20copy/</url>
     <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>在传统推荐系统中，尚不存在贴合众包的时间短，任务重，工人匹配度要求高的推荐方案。在本文中，我们提出了一个含有两层的数据表示方案（新定义了两种评分：工人-类别适合性评分和工人-任务吸引力评分），以支持个性化的任务和工人建议。本文还扩展了两种优化方法，即最小均方差（LMS）和多反馈贝叶斯个性化排序算法(BPR)，以更好地适应众包系统中任务/工人推荐的特征。本文把提出的四种方法集成了两个流行的学习模型：矩阵分解和kNN，得出了适用于众包系统的两个top-N推荐算法：（1）Top-N-任务推荐算法，用于发现给定工作人员的前N个最适合的任务（2）Top-N -Workers推荐算法，用于确定任务请求者的前N名最佳工人。</p>
@@ -153,8 +168,8 @@
       </categories>
       <tags>
         <tag>crowdsourcing</tag>
-        <tag>machine learning</tag>
         <tag>task recommendation</tag>
+        <tag>machine learning</tag>
         <tag>ranking algorithms</tag>
       </tags>
   </entry>

@@ -215,6 +215,141 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpeg">
+      <meta itemprop="name" content="Liqin Zhang">
+      <meta itemprop="description" content="Half as long. Twice as bright.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="GS | Horizon">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" class="post-title-link" itemprop="url">一篇关于众包的简要介绍和一些数据集整理</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-02-09 00:18:59" itemprop="dateCreated datePublished" datetime="2020-02-09T00:18:59+08:00">2020-02-09</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%A7%91%E7%A0%94/" itemprop="url" rel="index">
+                    <span itemprop="name">科研</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span id="/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" class="post-meta-item leancloud_visitors" data-flag-title="一篇关于众包的简要介绍和一些数据集整理" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="众包是什么？"><a href="#众包是什么？" class="headerlink" title="众包是什么？"></a>众包是什么？</h3><p>众包，简单来说就是在当前互联网蓬勃发展的大环境下一种新兴的利用了分布式计算的商业模式。曾有人预言说，计算机很长一段时间无法取代人类，计算机和人类会各自负责自己擅长的部分。现在的众包任务就是如此，它指那些主要需求人类智慧解决的任务，这些任务往往工作量不大，或是可以拆分成许多小任务。</p>
+<p>众包通常具有三个基本要素：提供众包平台的供应商，众包任务发布者，参与众包任务的工人。</p>
+<p>当前主流的众包系统问题主要有：众包任务设计，时空众包任务分配，工人的质量评估和选择，结果聚合。</p>
+<h3 id="数据集及其研究问题"><a href="#数据集及其研究问题" class="headerlink" title="数据集及其研究问题"></a>数据集及其研究问题</h3><h4 id="Foursquare-Dataset"><a href="#Foursquare-Dataset" class="headerlink" title="Foursquare Dataset"></a>Foursquare Dataset</h4><p>地址：<a href="https://sites.google.com/site/yangdingqi/home/foursquare-dataset" target="_blank" rel="noopener">https://sites.google.com/site/yangdingqi/home/foursquare-dataset</a></p>
+<p>介绍：Foursquare是一家基于用户地理位置信息（<a href="https://baike.baidu.com/item/LBS/1742" target="_blank" rel="noopener">LBS</a>）的手机服务网站，鼓励手机用户同他人分享自己当前所在地理位置等信息。这个数据集记录了从2011年10月24日至2012年2月20日关于纽约市餐厅的数据。数据集中有3112个用户信息和3298个位置信息，还有27149个“check-in”和10377个用户的“tips”。</p>
+<p>相关研究：通过用户的地理信息研究其对于特定地点的偏好（incentives），改进空间众包任务的推荐系统。</p>
+<ul>
+<li>Dingqi Yang, Daqing Zhang, Zhiyong Yu and Zhiwen Yu, Fine-Grained Preference-Aware Location Search Leveraging Crowdsourced Digital Footprints from LBSNs. In Proceeding of the 2013 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2013), September 8-12, 2013, in Zurich, Switzerland. <a href="http://www.google.com/url?q=http%3A%2F%2Fwww-public.it-sudparis.eu%2F~zhang_da%2Fpub%2FUbiComp_2013_Yang.pdf&sa=D&sntz=1&usg=AFQjCNErnJGR0J3FJH4lkJdA9oRjkhsglQ" target="_blank" rel="noopener">[PDF]</a></li>
+<li>Dingqi Yang, Daqing Zhang, Zhiyong Yu and Zhu Wang, A Sentiment-enhanced Personalized Location Recommendation System. In Proceeding of the 24th ACM Conference on Hypertext and Social Media (HT 2013), 1-3 May, 2013, Paris, France. <a href="http://www.google.com/url?q=http%3A%2F%2Fwww-public.it-sudparis.eu%2F~zhang_da%2Fpub%2FHT2013_Dingqi%20YANG.pdf&sa=D&sntz=1&usg=AFQjCNE-KO-83K11ShSmi7XaEeGaxQf0mw" target="_blank" rel="noopener">[PDF]</a></li>
+</ul>
+<h4 id="CMCC-Dataset"><a href="#CMCC-Dataset" class="headerlink" title="CMCC Dataset"></a>CMCC Dataset</h4><p>地址：<a href="http://datatech.zjdex.com/data/" target="_blank" rel="noopener">http://datatech.zjdex.com/data/</a> （暂时无法访问）</p>
+<p>介绍：这个数据集记录了从2017年5月28日到2017年6月28日浙江省手机用户的移动信息，可以获取到的信息有出入某地点（经纬度）的具体时刻（精确到分钟）。</p>
+<p>相关研究：移动众包（使用移动设备进行众包，利用高移动性可以解决那些地理上分散的任务），为移动众包分配任务的问题</p>
+<ul>
+<li>Z. Feng, Y. Zhu, Q. Zhang, L. M. Ni and A. V. Vasilakos, “TRAC: Truthful auction for location-aware collaborative sensing in mobile crowdsourcing,” <em>IEEE INFOCOM 2014 - IEEE Conference on Computer Communications</em>, Toronto, ON, 2014, pp. 1231-1239. [<a href="https://ieeexplore.ieee.org/abstract/document/6848055/" target="_blank" rel="noopener">pdf</a>]</li>
+</ul>
+<h4 id="D4D-Dataset"><a href="#D4D-Dataset" class="headerlink" title="D4D Dataset"></a>D4D Dataset</h4><p>“D4D” = “Data for Development”, 这也是一个记录了手机的地理位置信息的数据集。其中包含两种数据类型。一种包含有关手机信号的信息，包括信号ID，纬度和经度。另一个包含在美国橘县象牙湾的50,000个用户的电话记录。</p>
+<p>相关研究：众包任务分配问题</p>
+<ul>
+<li>Zhang, D., Xiong, H., Wang, L., &amp; Chen, G. (2014, September). CrowdRecruiter: selecting participants for piggyback crowdsensing under probabilistic coverage constraint. In Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (pp. 703-714). ACM.</li>
+<li>Liu, Y., Guo, B., Wang, Y., Wu, W., Yu, Z., &amp; Zhang, D. (2016, September). TaskMe: multi-task allocation in mobile crowd sensing. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (pp. 403- 414). ACM.</li>
+<li>Xiong, H., Zhang, D., Chen, G., Wang, L., Gauthier, V., &amp; Barnes, L. E. (2016). iCrowd: Near-optimal task allocation for piggyback crowdsensing. IEEE Transactions on Mobile Computing, 15(8), 2010-2022.</li>
+<li>Wang, J., Wang, Y., Zhang, D., Xiong, H., Wang, L., &amp; Sumi, H., et al. (2016). Fine-grained multi-task allocation for participatory sensing with a shared budget. Internet of Things Journal (in press). </li>
+<li>Wang, J., Wang, Y., Zhang, D., Wang, F., He, Y., &amp; Ma, L. PSAllocator: Multi-Task Allocation for Participatory Sensing with Sensing Capability Constraints. The, ACM Conference on Computer- Supported Cooperative Work and Social Computing (CSCW 2017).  </li>
+</ul>
+<h4 id="Stanford-Large-Network-Dataset-Collection-（Brightkite-and-Gowalla）"><a href="#Stanford-Large-Network-Dataset-Collection-（Brightkite-and-Gowalla）" class="headerlink" title="Stanford Large Network Dataset Collection （Brightkite and Gowalla）"></a>Stanford Large Network Dataset Collection （Brightkite and Gowalla）</h4><p>Source: J. Leskovec and A. Krevl, “Snap datasets: Stanford large network dataset collection,” Jun. 2014.</p>
+<p>介绍：该数据集记录了大量社交网络信息，包括社区，娱乐，食品，夜生活，户外活动，购物和旅行，以及其子类别。该数据集还收集了用户的个人资料，社交关系和酒店入住信息。</p>
+<p>相关研究：通过众包数据在基于地点产生的社交网络中探索影响力（传播）最大化问题，众包工人的隐私问题</p>
+<ul>
+<li>Using Crowdsourced Data in Location-based Social Networks to Explore Influence Maximization </li>
+<li>(A Book) Trends and Applications in Knowledge dISCOVERY AND Data Mining</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/08/2020-02-08-accurate/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -639,118 +774,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/02/07/2020-02-07-Efficient-budget/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpeg">
-      <meta itemprop="name" content="Liqin Zhang">
-      <meta itemprop="description" content="Half as long. Twice as bright.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="GS | Horizon">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" class="post-title-link" itemprop="url">一篇关于机器学习和众包的会议文章的构想</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-02-06 21:51:59" itemprop="dateCreated datePublished" datetime="2020-02-06T21:51:59+08:00">2020-02-06</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%A7%91%E7%A0%94/" itemprop="url" rel="index">
-                    <span itemprop="name">科研</span>
-                  </a>
-                </span>
-            </span>
-
-          
-            <span id="/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" class="post-meta-item leancloud_visitors" data-flag-title="一篇关于机器学习和众包的会议文章的构想" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>653</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><p>黄老师：中科院教授 研究领域：机器学习，深度学习，数据挖掘，对众包领域不熟悉。</p>
-<p>要求：需要我们这边把问题和数据捋清楚，黄老师负责用数据建模（可以是分类，回归，排序之类的模型），有的问题可以学习，有的不能。找到合适的问题，我们再看数据特性，然后确定具体方法</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1443,6 +1466,10 @@
         
         
           <li>
+            <a href="/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" title="一篇关于众包的简要介绍和一些数据集整理" target="_blank">一篇关于众包的简要介绍和一些数据集整理</a>
+          </li>
+        
+          <li>
             <a href="/2020/02/08/2020-02-08-accurate/" title="Accurate inference of crowdsourcing properties when using efficient allocation strategies" target="_blank">Accurate inference of crowdsourcing properties when using efficient allocation strategies</a>
           </li>
         
@@ -1456,10 +1483,6 @@
         
           <li>
             <a href="/2020/02/07/2020-02-07-Efficient-budget/" title="Efficient budget allocation and Task Assignment in Crowdsourcing" target="_blank">Efficient budget allocation and Task Assignment in Crowdsourcing</a>
-          </li>
-        
-          <li>
-            <a href="/2020/02/06/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/" title="一篇关于机器学习和众包的会议文章的构想" target="_blank">一篇关于机器学习和众包的会议文章的构想</a>
           </li>
         
       </ul>
@@ -1491,12 +1514,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">10k</span>
+    <span title="站点总字数">13k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">9 分钟</span>
+    <span title="站点阅读时长">11 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
   </div>
