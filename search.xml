@@ -60,12 +60,12 @@
 <img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/v2ray.png"/>
 
 <h3 id="快速管理"><a href="#快速管理" class="headerlink" title="快速管理"></a>快速管理</h3><p><code>v2ray info</code> 查看 V2Ray 配置信息<br><code>v2ray config</code> 修改 V2Ray 配置<br><code>v2ray link</code> 生成 V2Ray 配置文件链接<br><code>v2ray infolink</code> 生成 V2Ray 配置信息链接<br><code>v2ray qr</code> 生成 V2Ray 配置二维码链接<br><code>v2ray ss</code> 修改 Shadowsocks 配置<br><code>v2ray ssinfo</code> 查看 Shadowsocks 配置信息<br><code>v2ray ssqr</code> 生成 Shadowsocks 配置二维码链接<br><code>v2ray status</code> 查看 V2Ray 运行状态<br><code>v2ray start</code> 启动 V2Ray<br><code>v2ray stop</code> 停止 V2Ray<br><code>v2ray restart</code> 重启 V2Ray<br><code>v2ray log</code> 查看 V2Ray 运行日志<br><code>v2ray update</code> 更新 V2Ray<br><code>v2ray update.sh</code> 更新 V2Ray 管理脚本<br><code>v2ray uninstall</code> 卸载 V2Ray</p>
-<h3 id="优化-V2Ray"><a href="#优化-V2Ray" class="headerlink" title="优化 V2Ray"></a>优化 V2Ray</h3><p>由于安装的脚本在 Debian9 系统会自动开启 BBR 优化加速了，所以不需要再安装 BBR 优化了。<br>如果你还是觉得网络比较慢的话，你可以尝试使用含有 mKCP 的传输协议，这个 mKCP 简单来说就像 Kcptun 一样加速，并且还能进行伪装 (可选)，但是由于 mKCP 是使用 UDP 协议的，也许运营商会限速得更加厉害，网络变得更加慢。但不管怎么样，你都可以随时尝试一下。<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再接着选择 mKCP 相关的传输协议即可<br>如果你是使用其他商家的 VPS 并且是按照此教程流程来安装 V2Ray 的话，那么你可以输入 <code>v2ray bbr</code> 回车，然后选择安装 BBR 或者 锐速 来优化 V2Ray</p>
+<h3 id="优化-V2Ray"><a href="#优化-V2Ray" class="headerlink" title="优化 V2Ray"></a>优化 V2Ray</h3><p>由于安装的脚本在 Debian9 系统会自动开启 BBR 优化加速了，所以不需要再安装 BBR 优化了。<br>如果你还是觉得网络比较慢的话，你可以尝试使用含有 mKCP 的传输协议，这个 mKCP 简单来说就像 Kcptun 一样加速，并且还能进行伪装 (可选)，但是由于 mKCP 是使用 UDP 协议的，也许运营商会限速得更加厉害，网络变得更加慢。但不管怎么样，你都可以随时尝试一下。<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再接着选择 mKCP 相关的传输协议即可<br>如果你是使用其他商家的 VPS 并且是按照此教程流程来安装 V2Ray 的话，那么你可以输入 <code>v2ray bbr</code> 回车，然后选择安装 BBR 或者 锐速 来优化 V2Ray。</p>
 <blockquote>
 <p>如果你是使用国际大厂的 VPS，并且是按照此教程流程来安装 V2Ray 的话，请自行在安全组 (防火墙) 开放端口和 UDP 协议 (如果你要使用含有 mKCP 的传输协议) </p>
 </blockquote>
-<h3 id="WebSocket-TLS"><a href="#WebSocket-TLS" class="headerlink" title="WebSocket + TLS"></a>WebSocket + TLS</h3><p>实现 WebSocket + TLS 的前提是要拥有一个能正常解析的域名 (并且知道怎么解析域名)<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再选择 WebSocket + TLS，即是输入 4，接着输入你的域名。<br>使用WS + TLS 并不是 V2Ray 的神级配置，该墙还是会墙，比如它会有断流的问题。</p>
-<h3 id="HTTP-2"><a href="#HTTP-2" class="headerlink" title="HTTP/2"></a>HTTP/2</h3><p>实现 HTTP/2 (h2) 也很简单，和 WebSocket + TLS 一样，也就是只要一个域名就够。<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再选择 HTTP/2，即是输入 16，然后看上面的 WebSocket + TLS 的相关。<br>备注一下，HTTP/2 相比 WS + TLS (WebSocket + TLS) ，在浏览网页时有一些优势，不过速度总体是差不多的。：</p>
+<h3 id="WebSocket-TLS"><a href="#WebSocket-TLS" class="headerlink" title="WebSocket + TLS"></a>WebSocket + TLS</h3><p>实现 WebSocket + TLS 的前提是要拥有一个能正常解析的域名 (并且知道怎么解析域名)。<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再选择 WebSocket + TLS，即是输入 4，接着输入你的域名。<br>使用WS + TLS 并不是 V2Ray 的神级配置，该墙还是会墙，比如它会有断流的问题。</p>
+<h3 id="HTTP-2"><a href="#HTTP-2" class="headerlink" title="HTTP/2"></a>HTTP/2</h3><p>实现 HTTP/2 (h2) 也很简单，和 WebSocket + TLS 一样，也就是只要一个域名就够。<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再选择 HTTP/2，即是输入 16，然后看上面的 WebSocket + TLS 的相关。<br>备注一下，HTTP/2 相比 WS + TLS (WebSocket + TLS) ，在浏览网页时有一些优势，不过速度总体是差不多的。</p>
 ]]></content>
       <categories>
         <category>教程</category>
@@ -242,8 +242,8 @@
       </categories>
       <tags>
         <tag>crowdsourcing</tag>
-        <tag>machine learning</tag>
         <tag>task recommendation</tag>
+        <tag>machine learning</tag>
         <tag>ranking algorithms</tag>
       </tags>
   </entry>
