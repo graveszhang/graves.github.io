@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-09T11:45:52.624Z</updated>
+  <updated>2020-02-14T11:23:26.302Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>V2ray/SS + VPS 部署教程</title>
+    <link href="http://yoursite.com/2020/02/14/V2ray-SS-VPS-%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2020/02/14/V2ray-SS-VPS-%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/</id>
+    <published>2020-02-14T10:28:50.000Z</published>
+    <updated>2020-02-14T11:23:26.302Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;由于疫情在家，看netflix，youtube的时间变多，因此对翻墙的速度产生了更高的需求，原有的ss实际速度常常只有10-20兆，于是产生了搭建vps，改用v2ray的想法。V2Ray相对于更Shadowsocks，更像一个全能选手，拥有更多可选择的协议 / 传输载体 (Socks、HTTP、TLS、TCP、mKCP、WebSocket )，还有强大的路由功能，不仅于此，它亦包含 Shadowsocks 组件，你只需要安装 V2Ray，你就可以使用所有的 V2Ray 相关的特性包括使用 Shadowsocks，由于 V2Ray 是使用 GO 语言所撰写的，天生的平台部署优势，下载即可使用。&lt;/p&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/graveszhang/Img-Host/master/vps.png&quot;/&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="life" scheme="http://yoursite.com/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>一篇关于众包的简要介绍和一些数据集整理</title>
@@ -163,9 +185,9 @@
     
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
-      <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
-    
       <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
+    
+      <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
     
       <category term="ranking algorithms" scheme="http://yoursite.com/tags/ranking-algorithms/"/>
     

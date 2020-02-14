@@ -1,6 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>V2ray/SS + VPS 部署教程</title>
+    <url>/2020/02/14/V2ray-SS-VPS-%E9%83%A8%E7%BD%B2%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>由于疫情在家，看netflix，youtube的时间变多，因此对翻墙的速度产生了更高的需求，原有的ss实际速度常常只有10-20兆，于是产生了搭建vps，改用v2ray的想法。V2Ray相对于更Shadowsocks，更像一个全能选手，拥有更多可选择的协议 / 传输载体 (Socks、HTTP、TLS、TCP、mKCP、WebSocket )，还有强大的路由功能，不仅于此，它亦包含 Shadowsocks 组件，你只需要安装 V2Ray，你就可以使用所有的 V2Ray 相关的特性包括使用 Shadowsocks，由于 V2Ray 是使用 GO 语言所撰写的，天生的平台部署优势，下载即可使用。</p>
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/vps.png"/>
+
+<a id="more"></a>
+
+<h3 id="简单流程"><a href="#简单流程" class="headerlink" title="简单流程"></a>简单流程</h3><ol>
+<li><p>购买一个 VPS</p>
+<blockquote>
+<p>想要搭建 V2Ray，就必须要拥有一台 VPS）</p>
+</blockquote>
+</li>
+<li><p>获取 VPS 信息</p>
+<blockquote>
+<p> 我们必须要知道 VPS IP 地址，root 用户密码，SSH 端口</p>
+</blockquote>
+</li>
+<li><p>仅限Windows: 安装 Xshell</p>
+<blockquote>
+<p>Xshell 是一个 SSH 客户端，Mac 用户直接在终端登入ssh root@ip即可</p>
+</blockquote>
+</li>
+<li><p>登录 VPS</p>
+<blockquote>
+<p>使用 Xshell 配置 VPS SSH 信息，然后登录</p>
+</blockquote>
+</li>
+<li><p>安装 V2Ray</p>
+<blockquote>
+<p>安装过程你可以随意选择你喜欢的传输协议，此时也可顺便配置 Shadowsocks</p>
+</blockquote>
+</li>
+<li><p>V2Ray 高级玩法</p>
+<blockquote>
+<p>配置 WebSocket + TLS ， HTTP/2 ， mKCP 等</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="详细教程"><a href="#详细教程" class="headerlink" title="详细教程"></a>详细教程</h3><p>想要搭建 V2Ray， 拥有一个 VPS 是必需的。现在市场上VPS供应商泛滥，可以按照个人喜好选择。较为知名的有搬瓦工（Bandwagon Host），其CN2 GIA线路对中国用户非常友好，不过截止目前该线路所有服务器均已售罄。 这里我个人的建议是选择一个相对小众的供应商，这样不至于大量中国用户涌入导致高峰期线路拥堵，影响速度。</p>
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/vpsplan.png"/>
+
+<p>在订单成功之后，运营商会为你提供root密码，ip地址等信息，作为Mac用户，只需要简单在终端中输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh root@ip address</span><br></pre></td></tr></table></figure>
+
+<p>然后输入密码，技能登陆到远程服务器了。退出服务器只需要<code>control + D</code>即可。</p>
+<p>这里我们的VPS系统使用了debian-9-x86_64，进入虚拟环境后，首先安装curl（以下命令也适用于ubuntu）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt-get update -y &amp;&amp; apt-get install curl -y</span><br></pre></td></tr></table></figure>
+
+<p>或者，假如你是CentOS用户</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum update -y &amp;&amp; yum install curl -y</span><br></pre></td></tr></table></figure>
+
+<p>安装完成之后，使用V2Ray安装脚本</p>
+<figure class="highlight lisp"><table><tr><td class="code"><pre><span class="line">bash &lt;(<span class="name">curl</span> -s -L https<span class="symbol">://git</span>.io/v2ray.sh)</span><br></pre></td></tr></table></figure>
+
+<p>首次进入<code>v2ray</code>后，只要按照提示一路设置即可，如果你想使用 Shadowsocks ，那么现在你可以自己配置一下Shadowsocks 参数了，之后我们可以随时调用<code>v2ray</code>查看或修改我们的配置。</p>
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/v2ray.png"/>
+
+<h3 id="快速管理"><a href="#快速管理" class="headerlink" title="快速管理"></a>快速管理</h3><p><code>v2ray info</code> 查看 V2Ray 配置信息<br><code>v2ray config</code> 修改 V2Ray 配置<br><code>v2ray link</code> 生成 V2Ray 配置文件链接<br><code>v2ray infolink</code> 生成 V2Ray 配置信息链接<br><code>v2ray qr</code> 生成 V2Ray 配置二维码链接<br><code>v2ray ss</code> 修改 Shadowsocks 配置<br><code>v2ray ssinfo</code> 查看 Shadowsocks 配置信息<br><code>v2ray ssqr</code> 生成 Shadowsocks 配置二维码链接<br><code>v2ray status</code> 查看 V2Ray 运行状态<br><code>v2ray start</code> 启动 V2Ray<br><code>v2ray stop</code> 停止 V2Ray<br><code>v2ray restart</code> 重启 V2Ray<br><code>v2ray log</code> 查看 V2Ray 运行日志<br><code>v2ray update</code> 更新 V2Ray<br><code>v2ray update.sh</code> 更新 V2Ray 管理脚本<br><code>v2ray uninstall</code> 卸载 V2Ray</p>
+<h3 id="优化-V2Ray"><a href="#优化-V2Ray" class="headerlink" title="优化 V2Ray"></a>优化 V2Ray</h3><p>由于安装的脚本在 Debian9 系统会自动开启 BBR 优化加速了，所以不需要再安装 BBR 优化了。<br>如果你还是觉得网络比较慢的话，你可以尝试使用含有 mKCP 的传输协议，这个 mKCP 简单来说就像 Kcptun 一样加速，并且还能进行伪装 (可选)，但是由于 mKCP 是使用 UDP 协议的，也许运营商会限速得更加厉害，网络变得更加慢。但不管怎么样，你都可以随时尝试一下。<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再接着选择 mKCP 相关的传输协议即可<br>如果你是使用其他商家的 VPS 并且是按照此教程流程来安装 V2Ray 的话，那么你可以输入 <code>v2ray bbr</code> 回车，然后选择安装 BBR 或者 锐速 来优化 V2Ray</p>
+<blockquote>
+<p>如果你是使用国际大厂的 VPS，并且是按照此教程流程来安装 V2Ray 的话，请自行在安全组 (防火墙) 开放端口和 UDP 协议 (如果你要使用含有 mKCP 的传输协议) </p>
+</blockquote>
+<h3 id="WebSocket-TLS"><a href="#WebSocket-TLS" class="headerlink" title="WebSocket + TLS"></a>WebSocket + TLS</h3><p>实现 WebSocket + TLS 的前提是要拥有一个能正常解析的域名 (并且知道怎么解析域名)<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再选择 WebSocket + TLS，即是输入 4，接着输入你的域名。<br>使用WS + TLS 并不是 V2Ray 的神级配置，该墙还是会墙，比如它会有断流的问题。</p>
+<h3 id="HTTP-2"><a href="#HTTP-2" class="headerlink" title="HTTP/2"></a>HTTP/2</h3><p>实现 HTTP/2 (h2) 也很简单，和 WebSocket + TLS 一样，也就是只要一个域名就够。<br>服务器输入 <code>v2ray config</code> 回车，然后选择 修改 V2Ray 传输协议，再选择 HTTP/2，即是输入 16，然后看上面的 WebSocket + TLS 的相关。<br>备注一下，HTTP/2 相比 WS + TLS (WebSocket + TLS) ，在浏览网页时有一些优势，不过速度总体是差不多的。：</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一篇关于众包的简要介绍和一些数据集整理</title>
     <url>/2020/02/09/2020-02-06-Machine-Learning-Crowdsourcing-Concepts/</url>
     <content><![CDATA[<h3 id="众包是什么？"><a href="#众包是什么？" class="headerlink" title="众包是什么？"></a>众包是什么？</h3><p>众包，简单来说就是在当前互联网蓬勃发展的大环境下一种新兴的利用了分布式计算的商业模式。曾有人预言说，计算机很长一段时间无法取代人类，计算机和人类会各自负责自己擅长的部分。现在的众包任务就是如此，它指那些主要需求人类智慧解决的任务，这些任务往往工作量不大，或是可以拆分成许多小任务。</p>
@@ -168,8 +242,8 @@
       </categories>
       <tags>
         <tag>crowdsourcing</tag>
-        <tag>task recommendation</tag>
         <tag>machine learning</tag>
+        <tag>task recommendation</tag>
         <tag>ranking algorithms</tag>
       </tags>
   </entry>
