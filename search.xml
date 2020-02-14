@@ -46,7 +46,7 @@
 <p>在订单成功之后，运营商会为你提供root密码，ip地址等信息，作为Mac用户，只需要简单在终端中输入</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh root@ip address</span><br></pre></td></tr></table></figure>
 
-<p>然后输入密码，技能登陆到远程服务器了。退出服务器只需要<code>control + D</code>即可。</p>
+<p>然后输入密码，就能登陆到远程服务器了。退出服务器只需要<code>control + D</code>即可。</p>
 <p>这里我们的VPS系统使用了debian-9-x86_64，进入虚拟环境后，首先安装curl（以下命令也适用于ubuntu）</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">apt-get update -y &amp;&amp; apt-get install curl -y</span><br></pre></td></tr></table></figure>
 
@@ -242,8 +242,8 @@
       </categories>
       <tags>
         <tag>crowdsourcing</tag>
-        <tag>task recommendation</tag>
         <tag>machine learning</tag>
+        <tag>task recommendation</tag>
         <tag>ranking algorithms</tag>
       </tags>
   </entry>
@@ -325,8 +325,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>data</tag>
         <tag>crowdsourcing</tag>
+        <tag>data</tag>
       </tags>
   </entry>
   <entry>
