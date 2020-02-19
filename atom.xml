@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-19T06:19:21.165Z</updated>
+  <updated>2020-02-19T15:02:44.202Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Online Machine Learning在众包中的应用</title>
+    <link href="http://yoursite.com/2020/02/19/%E6%8E%A2%E7%A9%B6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0online%20learning%E5%9C%A8%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/"/>
+    <id>http://yoursite.com/2020/02/19/%E6%8E%A2%E7%A9%B6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0online%20learning%E5%9C%A8%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</id>
+    <published>2020-02-19T06:46:24.000Z</published>
+    <updated>2020-02-19T15:02:44.202Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;众包中常见的机器学习算法&quot;&gt;&lt;a href=&quot;#众包中常见的机器学习算法&quot; class=&quot;headerlink&quot; title=&quot;众包中常见的机器学习算法&quot;&gt;&lt;/a&gt;众包中常见的机器学习算法&lt;/h3&gt;&lt;h4 id=&quot;Active-Learning&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
+    
+  </entry>
+  
+  <entry>
     <title>众包中的机器学习问题研究</title>
     <link href="http://yoursite.com/2020/02/18/%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6/"/>
     <id>http://yoursite.com/2020/02/18/%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6/</id>
     <published>2020-02-18T13:49:01.000Z</published>
-    <updated>2020-02-19T06:19:21.165Z</updated>
+    <updated>2020-02-19T06:51:15.092Z</updated>
     
     <summary type="html">
     
@@ -29,6 +58,8 @@
     
     </summary>
     
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
