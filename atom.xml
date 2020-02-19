@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-19T15:02:44.202Z</updated>
+  <updated>2020-02-19T16:47:37.381Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,12 @@
     <link href="http://yoursite.com/2020/02/19/%E6%8E%A2%E7%A9%B6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0online%20learning%E5%9C%A8%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/"/>
     <id>http://yoursite.com/2020/02/19/%E6%8E%A2%E7%A9%B6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0online%20learning%E5%9C%A8%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</id>
     <published>2020-02-19T06:46:24.000Z</published>
-    <updated>2020-02-19T15:02:44.202Z</updated>
+    <updated>2020-02-19T16:47:37.381Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;众包中常见的机器学习算法&quot;&gt;&lt;a href=&quot;#众包中常见的机器学习算法&quot; class=&quot;headerlink&quot; title=&quot;众包中常见的机器学习算法&quot;&gt;&lt;/a&gt;众包中常见的机器学习算法&lt;/h3&gt;&lt;h4 id=&quot;Active-Learning&quot;&gt;&lt;a
-        
-      
+      &lt;h3 id=&quot;众包中常见的机器学习算法&quot;&gt;&lt;a href=&quot;#众包中常见的机器学习算法&quot; class=&quot;headerlink&quot; title=&quot;众包中常见的机器学习算法&quot;&gt;&lt;/a&gt;众包中常见的机器学习算法&lt;/h3&gt;&lt;h4 id=&quot;Active-Learning&quot;&gt;&lt;a href=&quot;#Active-Learning&quot; class=&quot;headerlink&quot; title=&quot;Active Learning&quot;&gt;&lt;/a&gt;Active Learning&lt;/h4&gt;&lt;p&gt;主动学习可以有效过滤或选择要由主管标记的样本，它成功应用于大量的计算任务，例如文本分类，图像识别或单词歧义消除场景。在众包中可以选择更好的未分类数据加快学习过程和减少人工的标签工作。&lt;/p&gt;
+&lt;h4 id=&quot;Online-Learning&quot;&gt;&lt;a href=&quot;#Online-Learning&quot; class=&quot;headerlink&quot; title=&quot;Online Learning&quot;&gt;&lt;/a&gt;Online Learning&lt;/h4&gt;&lt;p&gt;在线学习也叫作incremental 或是 out-of-core learning [1] ，是机器学习的一个子领域，他最大的特点是接受动态输入。它使用实时的(时序的)数据并将其应用到机器学习算法中。在线机器学习需要有一个为其提供实时数据流的网站。&lt;/p&gt;
     
     </summary>
     

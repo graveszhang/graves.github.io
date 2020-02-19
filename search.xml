@@ -5,6 +5,8 @@
     <url>/2020/02/19/%E6%8E%A2%E7%A9%B6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0online%20learning%E5%9C%A8%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</url>
     <content><![CDATA[<h3 id="众包中常见的机器学习算法"><a href="#众包中常见的机器学习算法" class="headerlink" title="众包中常见的机器学习算法"></a>众包中常见的机器学习算法</h3><h4 id="Active-Learning"><a href="#Active-Learning" class="headerlink" title="Active Learning"></a>Active Learning</h4><p>主动学习可以有效过滤或选择要由主管标记的样本，它成功应用于大量的计算任务，例如文本分类，图像识别或单词歧义消除场景。在众包中可以选择更好的未分类数据加快学习过程和减少人工的标签工作。</p>
 <h4 id="Online-Learning"><a href="#Online-Learning" class="headerlink" title="Online Learning"></a>Online Learning</h4><p>在线学习也叫作incremental 或是 out-of-core learning [1] ，是机器学习的一个子领域，他最大的特点是接受动态输入。它使用实时的(时序的)数据并将其应用到机器学习算法中。在线机器学习需要有一个为其提供实时数据流的网站。</p>
+<a id="more"></a>
+
 <p>[1] <a href="https://medium.com/value-stream-design/online-machine-learning-515556ff72c5" target="_blank" rel="noopener">What is Online Machine Learning?</a></p>
 <p>[2] <a href="https://ttic.uchicago.edu/~shai/papers/ShalevThesis07.pdf" target="_blank" rel="noopener">Online Learning: Theory, Algorithm and Applications</a> 一篇博士论文，介绍了关于分类器，标签排名算法(根据输入的相关度排名)</p>
 <p>[3] <a href="https://arxiv.org/pdf/1802.02871.pdf" target="_blank" rel="noopener">Online Learning: A comprehensive survey</a> 一篇关于在线机器学习的综述，主要阐述了始终可获得完整反馈信息的在线监督学习算法，展现了优于传统机器学习算法只针对确定数据集进行训练的拓展性</p>
@@ -40,8 +42,8 @@
 <h4 id="6-On-Quality-Control-and-Machine-Learning-in-Crowdsourcing（无模型-仅论述）"><a href="#6-On-Quality-Control-and-Machine-Learning-in-Crowdsourcing（无模型-仅论述）" class="headerlink" title="6. On Quality Control and Machine Learning in Crowdsourcing（无模型 仅论述）"></a>6. On Quality Control and Machine Learning in Crowdsourcing（无模型 仅论述）</h4><p>这篇文章主要阐述了为机器学习提供大量数据的众包的各种质量控制问题，讨论了在众包过程中工人的影响和获取数据的研究者所应该注意的几个因素。</p>
 <h4 id="7-Revolt-Collaborative-Crowdsourcing-for-Labeling-Machine-Learning-Datasets（它的主要概念和online-learning非常相似-2017）"><a href="#7-Revolt-Collaborative-Crowdsourcing-for-Labeling-Machine-Learning-Datasets（它的主要概念和online-learning非常相似-2017）" class="headerlink" title="7. Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets（它的主要概念和online learning非常相似 2017）"></a>7. Revolt: Collaborative Crowdsourcing for Labeling Machine Learning Datasets（它的主要概念和online learning非常相似 2017）</h4><p>本文主要介绍了一种用于改善标签质量的协作方法Revolt，可将想法从专家注释工作流引入基于人群的标签。 Revolt通过利用人群对模棱两可的物体的主要分歧来获取标签，从而消除了创建详细标签者的负担。Revolt可以生产高质量的标签，而又不需要标签准则。同时Revolt能够生产可重复使用的结构，而无需收集新数据，从而降低了前期成本。</p>
 <p>文章一种新的众包标签收集方法，它可以使人群识别数据的主要分歧而产生标签，而不是尝试事先通过全面的准则明确定义目标概念，文中介绍了方法的实时和异步版本。</p>
-<h3 id="思路总结"><a href="#思路总结" class="headerlink" title="思路总结"></a>思路总结</h3><p>黄老师为文章提供的科学问题是如何利用机器学习方法，辅助众包数据的产生。目前结合机器学习和众包领域的文章中，基本都采用了主动学习和在线学习两种算法，前者可以为分类器选择更好的未标注数据从而提高效率，后者则主要用于无人监督的环境下自行迭代训练，降低成本，提高质量。</p>
-<p>现在黄老师的想法是利用标注数据，使用在线学习算法产生一个模型，使用这个模型对未标注数据进行打标，然后人工确认结果的正确性，将正确数据送回算法进行学习，最终产生一个众包的医疗病理数据集合。</p>
+<h3 id="思路总结"><a href="#思路总结" class="headerlink" title="思路总结"></a>思路总结</h3><p>科学问题是如何利用机器学习方法，辅助众包数据的产生。目前结合机器学习和众包领域的文章中，基本都采用了主动学习和在线学习两种算法，前者可以为分类器选择更好的未标注数据从而提高效率，后者则主要用于无人监督的环境下自行迭代训练，降低成本，提高质量。</p>
+<p>利用标注数据，使用在线学习算法产生一个模型，使用这个模型对未标注数据进行打标，然后人工确认结果的正确性，将正确数据送回算法进行学习，最终产生一个众包的医疗病理数据集合。</p>
 <p>我的想法：这是一个在有监督的环境下使用在线学习的辅助众包的算法，比起全众包获取数据的情况下，依然可以节省成本，获取更好的收益，可以和纯无人监督环境下训练的在线算法模型进行一些性能比较。</p>
 ]]></content>
       <categories>
