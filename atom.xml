@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-14T11:27:39.701Z</updated>
+  <updated>2020-02-19T06:19:21.165Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>众包中的机器学习问题研究</title>
+    <link href="http://yoursite.com/2020/02/18/%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6/"/>
+    <id>http://yoursite.com/2020/02/18/%E4%BC%97%E5%8C%85%E4%B8%AD%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6/</id>
+    <published>2020-02-18T13:49:01.000Z</published>
+    <updated>2020-02-19T06:19:21.165Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;众包是一种分布式的问题解决模式。问题发布者将问题以公开招标的方式传播给未知的解决方案提供者群体。监督机器学习需要大量的人工标注数据。众包的发展为获取人工标注数据提供了一个新的方法。众包获取人工标注数据具有廉价、快速、规模大和方便控制等优点。因此得到了机器学习研究人员的广泛关注。众包标注数据虽然具有方便廉价的优点，但是也带来了问题。一般来说，传统的专家标注数据，数据标注都是比较准确的，质量问题不大。但是众包获得的数据，质量很有可能是有问题的。产生错误可能的原因包括众包工作者的态度、能力、对问题理解的差异、问题本身是比较难标注的等等。众包工作者可能给出错误的标签。既然现有的众包平台不能完全保证数据的质量，那么解决这种环境下的监督学习问题很有意义。现在很多研究人员提出用重复标注的方式产生冗余的标注数据，在这个数据上用机器学习算法来过滤噪声或者是估计更可靠的标注数据 。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
+    
+      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>V2ray/SS + VPS 部署教程</title>
@@ -185,9 +206,9 @@
     
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
-      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
-    
       <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
+    
+      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
     
       <category term="ranking algorithms" scheme="http://yoursite.com/tags/ranking-algorithms/"/>
     
@@ -238,9 +259,9 @@
       <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
-    
       <category term="data" scheme="http://yoursite.com/tags/data/"/>
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
   </entry>
   
