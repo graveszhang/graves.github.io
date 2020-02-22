@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-19T16:47:37.381Z</updated>
+  <updated>2020-02-22T15:31:43.429Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fine-tuning Convolutional Neural Networks for Biomedical Image Analysis: Actively and Incrementally</title>
+    <link href="http://yoursite.com/2020/02/22/Fine-tuning-Convolutional-Neural-Networks-for-Biomedical-Image-Analysis-Actively-and-Incrementally/"/>
+    <id>http://yoursite.com/2020/02/22/Fine-tuning-Convolutional-Neural-Networks-for-Biomedical-Image-Analysis-Actively-and-Incrementally/</id>
+    <published>2020-02-22T12:52:59.000Z</published>
+    <updated>2020-02-22T15:31:43.429Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;在生物医学图像分析的领域中，一直有应用卷积神经网络（CNN）强烈呼声，但由于在生物医学成像中缺少大型注释数据集，因而阻碍了其进行。注释生物医学图像不仅繁琐且耗时，而且要求昂贵的面向专业的知识和技能，而这些知识和技能不容易获得。为了降低注释成本，本文提出了一种称为AIFT（主动，增量式微调）的新颖方法，可以将主动学习和转移学习自然地整合到单个框架中。 AIFT从经过预先训练的CNN开始，从未注释的样本中寻找“有价值的”样本进行注释，并且CNN会在每次迭代中合并新注释的样本，进一步进行连续的微调，从而逐步提高CNN的性能。我们已经在三种不同的生物医学成像应用中评估了我们的方法，证明了注释的成本可以减少至少一半。该性能归因于AIFT方法先进的主动（active）和增量（incremental）功能所带来的若干优势。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="data" scheme="http://yoursite.com/tags/data/"/>
+    
+      <category term="CNN" scheme="http://yoursite.com/tags/CNN/"/>
+    
+  </entry>
   
   <entry>
     <title>Online Machine Learning在众包中的应用</title>
@@ -232,9 +255,9 @@
     
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
-      <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
-    
       <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
+    
+      <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
     
       <category term="ranking algorithms" scheme="http://yoursite.com/tags/ranking-algorithms/"/>
     
