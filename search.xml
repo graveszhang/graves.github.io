@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Learning Neural Network/Conv NN</title>
+    <url>/2020/03/15/Learning-Neural-Network-Conv-NN/</url>
+    <content><![CDATA[<h2 id="Neural-Networks"><a href="#Neural-Networks" class="headerlink" title="Neural Networks"></a>Neural Networks</h2><h3 id="Neurons"><a href="#Neurons" class="headerlink" title="Neurons"></a>Neurons</h3><ol>
+<li>Each input (x1, x2) is multipled by a weight</li>
+<li>All weighted inputs are added with bias b</li>
+<li>The sum is passed through an <strong>activation function</strong></li>
+</ol>
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/WX20200312-211909%402x.png"/>
+
+<h3 id="Combining-Neurons-into-Neural-Network-Feedforward"><a href="#Combining-Neurons-into-Neural-Network-Feedforward" class="headerlink" title="Combining Neurons into Neural Network: Feedforward"></a>Combining Neurons into Neural Network: Feedforward</h3><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/WX20200315-110025%402x.png"/>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">  <span class="comment"># Define weights and bias for the first layer</span></span><br><span class="line">  weights = np.array([<span class="number">0</span>, <span class="number">1</span>])</span><br><span class="line">  bias = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># The Neuron class here is from the previous section</span></span><br><span class="line">  self.h1 = Neuron(weights, bias)</span><br><span class="line">  self.h2 = Neuron(weights, bias)</span><br><span class="line">  self.o1 = Neuron(weights, bias)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">feedforward</span><span class="params">(self, x)</span>:</span></span><br><span class="line">  <span class="comment"># x = np.array([2,3]) </span></span><br><span class="line">  out_h1 = self.h1.feedforward(x)</span><br><span class="line">  out_h2 = self.h2.feedforward(x)</span><br><span class="line"></span><br><span class="line">  <span class="comment"># The inputs for o1 are the outputs from h1 and h2</span></span><br><span class="line">  out_o1 = self.o1.feedforward(np.array([out_h1, out_h2]))</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> out_o1</span><br></pre></td></tr></table></figure>
+<h3 id="Loss-Mean-Squared-Loss"><a href="#Loss-Mean-Squared-Loss" class="headerlink" title="Loss: Mean Squared Loss"></a>Loss: Mean Squared Loss</h3><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/mse.png"/>
+- n is the number of samples
+- y represents the variables being predicted
+- y_true is the true value of the variable
+- y_pred is the predicted value of the variable, also the **output of our network**
+- (y_true - y_pred)^2 is known as **squared error**
+
+<h3 id="Back-Propagation"><a href="#Back-Propagation" class="headerlink" title="Back Propagation"></a>Back Propagation</h3><p>On one note, idea is use chain rule to calculate the partial derivative of loss function and the input.</p>
+<h3 id="Stochastic-Gradient-Descent-SGD"><a href="#Stochastic-Gradient-Descent-SGD" class="headerlink" title="Stochastic Gradient Descent(SGD)"></a>Stochastic Gradient Descent(SGD)</h3><ul>
+<li>Main idea: Change our weights and biases to minimize loss and improve the network</li>
+<li>Update Equation<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/update.png"/>
+\mu is a constant called learning rate that controls how **fast** we train.</li>
+<li>If the second term is positive, w1 will decrease, which make L decrease</li>
+<li>If the second term is negative, w1 will increase, which make L decrease</li>
+</ul>
+<h2 id="CNN"><a href="#CNN" class="headerlink" title="CNN"></a>CNN</h2><h3 id="Convolution-Layers"><a href="#Convolution-Layers" class="headerlink" title="Convolution Layers"></a>Convolution Layers</h3><p>A classic use case of CNNs is to perform image classification. The reason not to use a normal Neural Network:</p>
+<ul>
+<li>Images are big.</li>
+<li>Positions can change.</li>
+</ul>
+<p>The difference between Convolution Neural Network and normal ones is that CNN uses <strong>Convolutional layers</strong> which is based on mathematical operation of convolution.</p>
+<p>Nomrally CNN consists of multiple filters, and we produce a output inmage by <strong>convolving</strong> the filter with the input image.</p>
+<blockquote>
+<p>Side Note: We (along with many CNN implementations) are technically actually using cross-correlation instead of convolution here, but they do almost the same thing. </p>
+</blockquote>
+<p>Consider the following example:<br><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/cnn.png"/></p>
+<p>The numbers in the image represent pixel intensities, where 0 is black and 255 is white. We’ll convolve the input image and the filter to produce a <strong>2x2 output image</strong>.</p>
+<p>To start, we overlap the filter in the top-left corner of the image.<br><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/cnnf1.png"/></p>
+<p>Next, we perform element-wise multiplication between the overlapping image values and filter values. </p>
+<p>Then we sum up the results and put the result onto the output matrix and do the same to the rest.<br><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/convolve-output.gif"/></p>
+<blockquote>
+<p>What’s the usage? Filter can help people look for <strong>specific localized image features</strong>. The above filter we used in example is known as <strong>Sobel filter</strong>. It is edge-detector, which can be horizontal or vertical.<br><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/vertical_sobel.png"/></p>
+</blockquote>
+<ul>
+<li><p>Padding: Add 0 to the surroundings, like below</p>
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/padding.png"/>
+</li>
+<li><p>CNN includes conv layers that use a set of filters to turn input images into output images. A conv layer’s primary parameter is the number of filters it has. </p>
+</li>
+</ul>
+<blockquote>
+<p>For a nxn image, if used a conv layer with 8 filters and valid padding, the output will be (n-2)x(n-2)x8</p>
+</blockquote>
+<h3 id="Implement-Convolution"><a href="#Implement-Convolution" class="headerlink" title="Implement Convolution"></a>Implement Convolution</h3><p>A conv layey’s feedforward.</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Conv3x3</span>:</span></span><br><span class="line">  <span class="comment"># A Convolution layer using 3x3 filters.</span></span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, num_filters)</span>:</span></span><br><span class="line">    self.num_filters = num_filters</span><br><span class="line"></span><br><span class="line">    <span class="comment"># filters is a 3d array with dimensions (num_filters, 3, 3)</span></span><br><span class="line">    <span class="comment"># We divide by 9 to reduce the variance of our initial values</span></span><br><span class="line">    self.filters = np.random.randn(num_filters, <span class="number">3</span>, <span class="number">3</span>) / <span class="number">9</span></span><br><span class="line">    </span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">iterate_regions</span><span class="params">(self, image)</span>:</span></span><br><span class="line">    <span class="string">'''</span></span><br><span class="line"><span class="string">    Generates all possible 3x3 image regions using valid padding.</span></span><br><span class="line"><span class="string">    - image is a 2d numpy array</span></span><br><span class="line"><span class="string">    '''</span></span><br><span class="line">    h, w = image.shape</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(h - <span class="number">2</span>):</span><br><span class="line">      <span class="keyword">for</span> j <span class="keyword">in</span> range(w - <span class="number">2</span>):</span><br><span class="line">        im_region = image[i:(i + <span class="number">3</span>), j:(j + <span class="number">3</span>)]</span><br><span class="line">        <span class="keyword">yield</span> im_region, i, j</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">forward</span><span class="params">(self, input)</span>:</span></span><br><span class="line">    <span class="string">'''</span></span><br><span class="line"><span class="string">    Performs a forward pass of the conv layer using the given input.</span></span><br><span class="line"><span class="string">    Returns a 3d numpy array with dimensions (h, w, num_filters).</span></span><br><span class="line"><span class="string">    - input is a 2d numpy array</span></span><br><span class="line"><span class="string">    '''</span></span><br><span class="line">    h, w = input.shape</span><br><span class="line">    output = np.zeros((h - <span class="number">2</span>, w - <span class="number">2</span>, self.num_filters))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> im_region, i, j <span class="keyword">in</span> self.iterate_regions(input):</span><br><span class="line">      output[i, j] = np.sum(im_region * self.filters, axis=(<span class="number">1</span>, <span class="number">2</span>))</span><br><span class="line">		<span class="comment"># This line accutually performs the convolution</span></span><br><span class="line">    <span class="keyword">return</span> output</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>We have <code>im_region</code>, a 3x3 array containing the relevant image region.</li>
+<li>We have <code>self.filters</code>, a 3d array.</li>
+<li>We do <code>im_region * self.filters</code>, which uses numpy’s <a href="https://docs.scipy.org/doc/numpy/user/basics.broadcasting.html" target="_blank" rel="noopener">broadcasting</a> feature to element-wise multiply the two arrays. The result is a 3d array with the same dimension as <code>self.filters</code>.</li>
+<li>We <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.sum.html" target="_blank" rel="noopener">np.sum()</a> the result of the previous step using <code>axis=(1, 2)</code>, which produces a 1d array of length <code>num_filters</code> where each element contains the convolution result for the corresponding filter.</li>
+<li>We assign the result to <code>output[i, j]</code>, which contains convolution results for pixel <code>(i, j)</code> in the output.</li>
+</ul>
+<h3 id="Pooling"><a href="#Pooling" class="headerlink" title="Pooling"></a>Pooling</h3><p>Reduce the size of an image by usng simple technique like max, min, average… e.g.</p>
+<ul>
+<li>Max pooling: we traverse the input image in 2x2 blocks (because pool size = 2) and put the max value into the output image at the corresponding pixel.</li>
+<li>Pooling divides the input’s width and height by the pool size.</li>
+</ul>
+<h4 id="Implementation"><a href="#Implementation" class="headerlink" title="Implementation"></a>Implementation</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MaxPool2</span>:</span></span><br><span class="line">  <span class="comment"># A Max Pooling layer using a pool size of 2.</span></span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">iterate_regions</span><span class="params">(self, image)</span>:</span></span><br><span class="line">    <span class="string">'''</span></span><br><span class="line"><span class="string">    Generates non-overlapping 2x2 image regions to pool over.</span></span><br><span class="line"><span class="string">    - image is a 2d numpy array</span></span><br><span class="line"><span class="string">    '''</span></span><br><span class="line">    h, w, _ = image.shape</span><br><span class="line">    new_h = h // <span class="number">2</span></span><br><span class="line">    new_w = w // <span class="number">2</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(new_h):</span><br><span class="line">      <span class="keyword">for</span> j <span class="keyword">in</span> range(new_w):</span><br><span class="line">        im_region = image[(i * <span class="number">2</span>):(i * <span class="number">2</span> + <span class="number">2</span>), (j * <span class="number">2</span>):(j * <span class="number">2</span> + <span class="number">2</span>)]</span><br><span class="line">        <span class="keyword">yield</span> im_region, i, j</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">forward</span><span class="params">(self, input)</span>:</span></span><br><span class="line">    <span class="string">'''</span></span><br><span class="line"><span class="string">    Performs a forward pass of the maxpool layer using the given input.</span></span><br><span class="line"><span class="string">    Returns a 3d numpy array with dimensions (h / 2, w / 2, num_filters).</span></span><br><span class="line"><span class="string">    - input is a 3d numpy array with dimensions (h, w, num_filters)</span></span><br><span class="line"><span class="string">    '''</span></span><br><span class="line">    h, w, num_filters = input.shape</span><br><span class="line">    output = np.zeros((h // <span class="number">2</span>, w // <span class="number">2</span>, num_filters))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> im_region, i, j <span class="keyword">in</span> self.iterate_regions(input):</span><br><span class="line">      output[i, j] = np.amax(im_region, axis=(<span class="number">0</span>, <span class="number">1</span>))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> output</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="实验-Hands-on"><a href="#实验-Hands-on" class="headerlink" title="实验 Hands-on"></a>实验 Hands-on</h2><ul>
+<li>正例：预测值和真实值都为1</li>
+<li>负例：预测值和真实值都为0</li>
+</ul>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>Neural Network</tag>
+        <tag>CNN</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Fine-tuning Convolutional Neural Networks for Biomedical Image Analysis: Actively and Incrementally</title>
     <url>/2020/02/22/Fine-tuning-Convolutional-Neural-Networks-for-Biomedical-Image-Analysis-Actively-and-Incrementally/</url>
     <content><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>在生物医学图像分析的领域中，一直有应用卷积神经网络（CNN）强烈呼声，但由于在生物医学成像中缺少大型注释数据集，因而阻碍了其进行。注释生物医学图像不仅繁琐且耗时，而且要求昂贵的面向专业的知识和技能，而这些知识和技能不容易获得。为了降低注释成本，本文提出了一种称为AIFT（主动，增量式微调）的新颖方法，可以将主动学习和转移学习自然地整合到单个框架中。 AIFT从经过预先训练的CNN开始，从未注释的样本中寻找“有价值的”样本进行注释，并且CNN会在每次迭代中合并新注释的样本，进一步进行连续的微调，从而逐步提高CNN的性能。我们已经在三种不同的生物医学成像应用中评估了我们的方法，证明了注释的成本可以减少至少一半。该性能归因于AIFT方法先进的主动（active）和增量（incremental）功能所带来的若干优势。</p>
@@ -482,8 +572,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>data</tag>
         <tag>crowdsourcing</tag>
+        <tag>data</tag>
       </tags>
   </entry>
   <entry>
