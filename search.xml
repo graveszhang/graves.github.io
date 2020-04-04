@@ -9,8 +9,9 @@
 <li>The sum is passed through an <strong>activation function</strong></li>
 </ol>
 <img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/WX20200312-211909%402x.png"/>
-
-<h3 id="Combining-Neurons-into-Neural-Network-Feedforward"><a href="#Combining-Neurons-into-Neural-Network-Feedforward" class="headerlink" title="Combining Neurons into Neural Network: Feedforward"></a>Combining Neurons into Neural Network: Feedforward</h3><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/WX20200315-110025%402x.png"/>
+<a id="more"></a>
+### Combining Neurons into Neural Network: Feedforward
+<img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/WX20200315-110025%402x.png"/>
 
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">  <span class="comment"># Define weights and bias for the first layer</span></span><br><span class="line">  weights = np.array([<span class="number">0</span>, <span class="number">1</span>])</span><br><span class="line">  bias = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># The Neuron class here is from the previous section</span></span><br><span class="line">  self.h1 = Neuron(weights, bias)</span><br><span class="line">  self.h2 = Neuron(weights, bias)</span><br><span class="line">  self.o1 = Neuron(weights, bias)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">feedforward</span><span class="params">(self, x)</span>:</span></span><br><span class="line">  <span class="comment"># x = np.array([2,3]) </span></span><br><span class="line">  out_h1 = self.h1.feedforward(x)</span><br><span class="line">  out_h2 = self.h2.feedforward(x)</span><br><span class="line"></span><br><span class="line">  <span class="comment"># The inputs for o1 are the outputs from h1 and h2</span></span><br><span class="line">  out_o1 = self.o1.feedforward(np.array([out_h1, out_h2]))</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> out_o1</span><br></pre></td></tr></table></figure>
 <h3 id="Loss-Mean-Squared-Loss"><a href="#Loss-Mean-Squared-Loss" class="headerlink" title="Loss: Mean Squared Loss"></a>Loss: Mean Squared Loss</h3><img src="https://raw.githubusercontent.com/graveszhang/Img-Host/master/mse.png"/>
@@ -572,8 +573,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>crowdsourcing</tag>
         <tag>data</tag>
+        <tag>crowdsourcing</tag>
       </tags>
   </entry>
   <entry>

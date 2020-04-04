@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-20T08:54:15.329Z</updated>
+  <updated>2020-04-04T13:33:05.726Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,16 @@
     <link href="http://yoursite.com/2020/03/15/Learning-Neural-Network-Conv-NN/"/>
     <id>http://yoursite.com/2020/03/15/Learning-Neural-Network-Conv-NN/</id>
     <published>2020-03-15T12:04:19.000Z</published>
-    <updated>2020-03-20T08:54:15.329Z</updated>
+    <updated>2020-04-04T13:33:05.726Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;Neural-Networks&quot;&gt;&lt;a href=&quot;#Neural-Networks&quot; class=&quot;headerlink&quot; title=&quot;Neural Networks&quot;&gt;&lt;/a&gt;Neural Networks&lt;/h2&gt;&lt;h3 id=&quot;Neurons&quot;&gt;&lt;a
-        
-      
+      &lt;h2 id=&quot;Neural-Networks&quot;&gt;&lt;a href=&quot;#Neural-Networks&quot; class=&quot;headerlink&quot; title=&quot;Neural Networks&quot;&gt;&lt;/a&gt;Neural Networks&lt;/h2&gt;&lt;h3 id=&quot;Neurons&quot;&gt;&lt;a href=&quot;#Neurons&quot; class=&quot;headerlink&quot; title=&quot;Neurons&quot;&gt;&lt;/a&gt;Neurons&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Each input (x1, x2) is multipled by a weight&lt;/li&gt;
+&lt;li&gt;All weighted inputs are added with bias b&lt;/li&gt;
+&lt;li&gt;The sum is passed through an &lt;strong&gt;activation function&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/graveszhang/Img-Host/master/WX20200312-211909%402x.png&quot;/&gt;
     
     </summary>
     
@@ -337,9 +336,9 @@
       <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
-    
       <category term="data" scheme="http://yoursite.com/tags/data/"/>
+    
+      <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
   </entry>
   
