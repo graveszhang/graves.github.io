@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-04T13:33:05.726Z</updated>
+  <updated>2020-04-12T05:05:00.389Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Active Learning 实战</title>
+    <link href="http://yoursite.com/2020/04/12/Active-Learning-%E5%AE%9E%E6%88%98/"/>
+    <id>http://yoursite.com/2020/04/12/Active-Learning-%E5%AE%9E%E6%88%98/</id>
+    <published>2020-04-12T05:00:16.000Z</published>
+    <updated>2020-04-12T05:05:00.389Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;实验步骤&quot;&gt;&lt;a href=&quot;#实验步骤&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
+    
+      <category term="Active Learning" scheme="http://yoursite.com/tags/Active-Learning/"/>
+    
+      <category term="Neural Network" scheme="http://yoursite.com/tags/Neural-Network/"/>
+    
+  </entry>
   
   <entry>
     <title>Learning Neural Network/Conv NN</title>
@@ -283,9 +312,9 @@
     
       <category term="crowdsourcing" scheme="http://yoursite.com/tags/crowdsourcing/"/>
     
-      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
-    
       <category term="task recommendation" scheme="http://yoursite.com/tags/task-recommendation/"/>
+    
+      <category term="machine learning" scheme="http://yoursite.com/tags/machine-learning/"/>
     
       <category term="ranking algorithms" scheme="http://yoursite.com/tags/ranking-algorithms/"/>
     

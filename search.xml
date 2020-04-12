@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Active Learning 实战</title>
+    <url>/2020/04/12/Active-Learning-%E5%AE%9E%E6%88%98/</url>
+    <content><![CDATA[<h2 id="实验步骤"><a href="#实验步骤" class="headerlink" title="实验步骤"></a>实验步骤</h2><ol>
+<li>使用keras搭建AlexNet对ImageNet的数据集进行训练</li>
+<li>使用训练模型对于所有候选集中的样本进行预测（10个一组）</li>
+<li>计算Entropy和Diversity分数，选取前50%进行标注并训练新的CNN</li>
+<li>重复2和3，直到3所得模型的预测准确率达到预期标准（85%）</li>
+</ol>
+]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>Active Learning</tag>
+        <tag>Neural Network</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Learning Neural Network/Conv NN</title>
     <url>/2020/03/15/Learning-Neural-Network-Conv-NN/</url>
     <content><![CDATA[<h2 id="Neural-Networks"><a href="#Neural-Networks" class="headerlink" title="Neural Networks"></a>Neural Networks</h2><h3 id="Neurons"><a href="#Neurons" class="headerlink" title="Neurons"></a>Neurons</h3><ol>
@@ -490,8 +508,8 @@
       </categories>
       <tags>
         <tag>crowdsourcing</tag>
-        <tag>machine learning</tag>
         <tag>task recommendation</tag>
+        <tag>machine learning</tag>
         <tag>ranking algorithms</tag>
       </tags>
   </entry>
