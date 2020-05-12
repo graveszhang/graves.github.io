@@ -274,6 +274,27 @@
 
 <a id="more"></a>
 
+<h3 id="2020-5-11-Update-端口被封的解决方法"><a href="#2020-5-11-Update-端口被封的解决方法" class="headerlink" title="[2020/5/11 Update] 端口被封的解决方法"></a>[2020/5/11 Update] 端口被封的解决方法</h3><p>有些时候运营商可能会检测到流量不正常从而封掉ssh的某个端口，如何ssh依然可以连接可以在v2ray插件中中更改SS或者v2ray的端口设置，如果ssh也无法连接的话需要进入VPS后台，这里以KiwiVM为例。</p>
+<ol>
+<li><p>进入<code>Root shell - interactive</code>，默认登陆账号为root，密码如果遗忘可以在<code>Root shell - basic</code>中输入<code>echo &quot;root:password&quot; | chpasswd</code>将密码改为password。</p>
+</li>
+<li><p>连接到ssh之后，执行以下命令更改VPS的端口号</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+
+<p>可以搜索Port并将后面的数字改成你自定义的端口号</p>
+<ol start="3">
+<li>重启ssh</li>
+</ol>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">/etc/init.d/ssh restart ## debian</span><br><span class="line">service ssh restart ## ubuntu</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>验证端口是否被成功更改</li>
+</ol>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">netstat -nlpt <span class="string">| grep ssh</span></span><br></pre></td></tr></table></figure>
+
+<p>大功告成！</p>
 <h3 id="简单流程"><a href="#简单流程" class="headerlink" title="简单流程"></a>简单流程</h3><ol>
 <li><p>购买一个 VPS</p>
 <blockquote>
@@ -508,8 +529,8 @@
       </categories>
       <tags>
         <tag>crowdsourcing</tag>
-        <tag>task recommendation</tag>
         <tag>machine learning</tag>
+        <tag>task recommendation</tag>
         <tag>ranking algorithms</tag>
       </tags>
   </entry>
