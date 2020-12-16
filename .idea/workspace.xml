@@ -2,163 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dba7f103-6f6b-4e2e-bac2-dcce9d54990e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/graveszhang.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/css/images/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/css/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/css/images/spinner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/css/noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/js/breakpoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/js/browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/js/jquery.poptrox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/base/_page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/base/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_actions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_poptrox-popup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/components/_table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/layout/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/layout/_wrapper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/libs/_vendor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/sass/noscript.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/fulls/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/images/thumbs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fontawesome-all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/images/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/images/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/images/spinner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/noscript.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/breakpoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/browser.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.poptrox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/base/_page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/base/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/base/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_actions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_panel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_poptrox-popup.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/components/_table.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/layout/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/layout/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/layout/_wrapper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/libs/_vendor.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/noscript.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fulls/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/thumbs/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.poptrox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/libs/_html-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fulls/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fulls/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fulls/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fulls/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fulls/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fulls/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbs/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbs/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbs/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbs/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbs/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbs/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/example.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GithubButtons/GithubButtons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Image/AboutImg.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Image/ProjectImg.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title/Title.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/project.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mock/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/abstracts/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/abstracts/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/abstracts/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/components/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/layout/_sections.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/sections/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/sections/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/sections/_hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/sections/_projects.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/vendor/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/vendor/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +114,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -193,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608092407175</updated>
-      <workItem from="1608092409014" duration="3222000" />
+      <workItem from="1608092409014" duration="3905000" />
     </task>
     <servers />
   </component>
@@ -210,6 +145,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
