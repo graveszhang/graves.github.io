@@ -29,6 +29,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+ul.title-content-list > li > div.school { float: left }
+ul.title-content-list > li > div.date { float: right }
+
+
+
 body {
 	line-height: 1;
 }
