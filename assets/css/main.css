@@ -32,6 +32,10 @@ footer, header, hgroup, menu, nav, section {
 ul.title-content-list > li > div.school { float: left }
 ul.title-content-list > li > div.date { float: right }
 
+ul.misc {
+color: #696969;
+}
+
 #timeline {
 	position: relative;
 	display: table;
