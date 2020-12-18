@@ -95,15 +95,15 @@ ul.title-content-list > li > div.date { float: right }
 	font-size: 1em;
   }
 
-  #timeline section.year section ul.tutor {
-	color: #117A65;
+  #timeline section.year section ul.tltitle {
+    font-weight: bold;
+	color: #363636;
   }
-  #timeline section.year section ul.research {
-	color: #2E4053;
+  #timeline section.year section ul.tltitle li{
+    font-weight: normal;
+    font-size: 0.8em;
   }
-  #timeline section.year section ul.admin {
-	  color: #5B2C6F;
-  }
+
 
   @media (min-width: 62em) {
 	#timeline section.year section ul {
