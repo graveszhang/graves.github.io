@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="xueming-Felix.github.io-master" />
+    <orderEntry type="module" module-name="item084.github.io-master" />
   </component>
 </module>
