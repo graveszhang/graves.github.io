@@ -36,6 +36,20 @@ ul.misc {
 color: #696969;
 }
 
+ul.project li{
+	color: #707071;
+}
+ul.project-detail li{
+	list-style: circle;
+	color: #a0a0a1;
+}
+
+#prof{
+	font-style: italic;
+}
+#topabit{
+	margin-top: -10px;
+}
 #timeline {
 	position: relative;
 	display: table;
