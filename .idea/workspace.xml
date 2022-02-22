@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dba7f103-6f6b-4e2e-bac2-dcce9d54990e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1liuoH4TRddZg66T8ecav1YdZpj" />
   <component name="ProjectLevelVcsManager">
@@ -47,7 +50,10 @@
       <workItem from="1608385065031" duration="3018000" />
       <workItem from="1608479394911" duration="607000" />
       <workItem from="1638040932675" duration="5898000" />
-      <workItem from="1638125642528" duration="160000" />
+      <workItem from="1638125642528" duration="178000" />
+      <workItem from="1638211105563" duration="3000" />
+      <workItem from="1642044250135" duration="598000" />
+      <workItem from="1645560812851" duration="617000" />
     </task>
     <servers />
   </component>
@@ -67,7 +73,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
